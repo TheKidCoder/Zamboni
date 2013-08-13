@@ -1,0 +1,1622 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://espn.go.com/nhl/player/_/id/1223
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Content-Type:
+      - text/html;charset=iso-8859-1
+      Cache-Control:
+      - max-age=15
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 13 Aug 2013 16:20:54 GMT
+      Connection:
+      - keep-alive
+      P3p:
+      - CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo
+        BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
+      Set-Cookie:
+      - SWID=B9EABD00-6A7F-40EA-B93F-881ECD14A81F; path=/; expires=Tue, 13-Aug-2033
+        16:20:54 GMT; domain=go.com;
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<meta
+        charset=\"iso-8859-1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n<script>var
+        a=navigator.userAgent,b=window.location,c=document.cookie,d=a.match(/iPad/i)||a.match(/Android/i)&&!a.match(/Mobile/i)||a.match(/RIM
+        Tablet/i),e=a.match(/Mobile/i)||a.match(/Mini/i),f=b.href.match(/src=mobile/i),g=-1<c.indexOf(\"iphone_redirect=false\"),h=-1<c.indexOf(\"iphone_redirect=true\");if(d){if(document.documentElement.className+=\"
+        tablet \",(!a.match(/iPad/i)||h)&&!g)b.href=\"http://m.espn.go.com/nhl/playercard?playerId=1223&src=desktop\"}else
+        e&&(!g&&!f)&&(b.href=\"http://m.espn.go.com/nhl/playercard?playerId=1223&src=desktop\");</script>\n<title>Pavel
+        Datsyuk Stats, News, Videos, Highlights, Pictures, Bio - Detroit Red Wings
+        - ESPN</title>\n<meta name=\"slice\" scheme=\"IE\" content=\"off\" />\n<meta
+        name=\"google-site-verification\" content=\"xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA\"
+        />\n<meta name=\"msvalidate.01\" content=\"B1FEB7C682C46C8FCDA3130F3D18AC28\"
+        />\n<meta name=\"googlebot\" content=\"noodp\" />\n<meta name=\"robots\" content=\"index,
+        follow\" />\n<meta name=\"description\" content=\"Get the latest news, stats,
+        videos, highlights and more about Detroit Red Wings center Pavel Datsyuk on
+        ESPN.com.\" />\n<meta name=\"keywords\" content=\"pavel datsyuk, pavel datsyuk
+        bio, pavel datsyuk news, pavel datsyuk stats, pavel datsyuk videos, pavel
+        datsyuk highlights, pavel datsyuk pictures\" />\n<meta property=\"og:title\"
+        content=\"Pavel Datsyuk\" />\n<meta property=\"og:type\" content=\"athlete\"
+        />\n<meta property=\"og:url\" content=\"http://espn.go.com/nhl/player/_/id/1223/pavel-datsyuk\"
+        />\n<meta property=\"og:description\" content=\"Get the latest news, stats,
+        videos, highlights and more about Detroit Red Wings center Pavel Datsyuk on
+        ESPN.com.\" />\n<meta property=\"og:image\" content=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&h=90\"
+        />\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:image\"
+        content=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&h=90\">\n<meta
+        name=\"twitter:title\" content=\"Pavel Datsyuk\">\n<meta name=\"twitter:description\"
+        content=\"Get the latest news, stats, videos, highlights and more about Detroit
+        Red Wings center Pavel Datsyuk on ESPN.com.\">\n<meta property=\"og:site_name\"
+        content=\"ESPN.com\">\n<meta property=\"fb:app_id\" content=\"116656161708917\">\n<link
+        rel=\"canonical\" href=\"http://espn.go.com/nhl/player/_/id/1223/pavel-datsyuk\"
+        />\n\n\t\t<script>var _sf_startpt=(new Date()).getTime();</script>\n<link
+        rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"http://a.espncdn.com/search/opensearch.xml\"
+        title=\"ESPN Search\" />\n<link rel=\"stylesheet\" href=\"http://a.espncdn.com/combiner/c/201302251456?css=global_reset.r1.css,base.r236.css,modules.r455.css,global_header.r42.css,modules/global_nav.r53.css,modules/insider_enhanced.r1.css,modules/mem/mem.r9.css,modules/mem/mem_espn360.r6.css,modules/mem/skirmish.r6.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/201303290924?css=sprites/teamlogos.r18.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509325?css=modules/master_tables_10.r3.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509325?css=modules/tabs-page-nav.3.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509326?css=pagetype/tier3.r10.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/prod/styles/tier3/tier3_nhl.css\" type=\"text/css\"
+        media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\" href=\"http://a.espncdn.com/prod/styles/playercard_10.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/prod/styles/playercard_nhl_10.css\" type=\"text/css\"
+        media=\"screen\" charset=\"utf-8\" />\n<script src=\"http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/json2.r3.js,plugins/teacrypt.js,plugins/jquery.metadata.js,plugins/jquery.bgiframe.r3.js,plugins/jquery.easing.1.3.js,plugins/jquery.hoverIntent.js,plugins/jquery.jcarousel.js,plugins/jquery.tinysort.r4.js,plugins/jquery.pubsub.r5.js,ui/1.8.16/jquery.ui.core.js,ui/1.8.16/jquery.ui.widget.js,ui/1.8.16/jquery.ui.tabs.js,ui/1.8.16/jquery.ui.accordion.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,swfobject/2.2/swfobject.js,flashObjWrapper.r7.js,plugins/jquery.colorbox.1.3.14.js,plugins/jquery.ba-postmessage.js,espn.core.duo.r55.js,espn.mem.r37b.js,stub.search.r9.js,espn.nav.mega.r35.js,espn.storage.r6.js,espn.p13n.r16.js,espn.video.r81.js,registration/staticLogin.r11.js,espn.universal.overlay.r16.js,insider/espn.insider.201212131.js,espn.espn360.stub.r9.js,espn.myHeadlines.stub.r13.js,espn.myfaves.stub.r3.js,tsscoreboard.20090612.js,/foresee/v7/foresee-alive.js,ie9pinning.r3.js,espn.f8.r11.js,espn.socialmediamod.r6.js\"></script>\n<script>espn.core.navVersion
+        = 'a';</script>\n<script type=\"text/javascript\" src=\"http://a.espncdn.com/prod/scripts/mbox.20.r2.js\"></script>\n<script>var
+        ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayer\",ad_kvps=\"pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;\",ad_swid=\"\",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg=\"\",ad_mnr=-1<document.cookie.indexOf(\"grif=1\")?\"t\":\"f\",ad_ref=\"other\",ref=document.referrer,refsMap={\"facebook.com\":\"facebook\",\"twitter.com|t.co\":\"twitter\",\"plus.url.google.com|plus.google.com\":\"googleplus\",\"google.com\":\"google\",\"bing.com\":\"bing\",\"yahoo.com\":\"yahoo\",\"espn.go.com\":\"espn\"},refKey;for(refKey
+        in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);\nad_kvps=ad_kvps+\"ref=\"+ad_ref+\";mnr=\"+ad_mnr+\";\";ad_swid=jQuery.cookie(\"SWID\");\"function\"===typeof
+        espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&\"\"!=ad_seg&&(ad_kvps+=ad_seg));var
+        ad_u=\"u=pgtyp=nhlplayer|sp=nhl|tm=det|pl=1223|ref=\"+ad_ref+\"|mnr=\"+ad_mnr,ad_seg_u=ad_seg;null!=ad_swid&&\"\"!=ad_swid&&(54<ad_swid.length&&(ad_swid=ad_swid.substring(0,54)),ad_newu=\"u=swid=\"+ad_swid+\"|\",ad_u=ad_u.replace(\"u=\",ad_newu));\nif(null!=ad_seg_u&&\"\"!=ad_seg_u){for(;-1!=ad_seg_u.indexOf(\";\");)ad_seg_u=ad_seg_u.replace(\";\",\"|\");if
+        (ad_seg_u[ad_seg_u.length-1] !== \"|\") {ad_seg_u += \"|\";}\tad_u=ad_u+\"|\"+ad_seg_u}ad_u+=\";\";255<ad_u.length&&(ad_u=ad_u.substring(0,254));if
+        (ad_u[ad_u.length-1] !== \";\"){ad_u += \";\";}</script>\n</head>\n<body class=\"nhl
+        {sportId:90, teamId:5} tier3 player-card teamId-5\" >\n<div class=\"mboxDefault\"><link
+        rel=\"stylesheet\" charset=\"utf-8\" media=\"screen\" href=\"http://a.espncdn.com/prod/styles/modules/hideEditorialPicksMod.css\"
+        type=\"text/css\" /></div><script>mboxCreate('ESPN_global');</script><!--[if
+        IE 6]><div class=\"ie ie6\"><![endif]-->\n<!--[if IE 7]><div class=\"ie ie7\"><![endif]-->\n<!--[if
+        IE 8]><div class=\"ie ie8\"><![endif]-->\n<!-- begin bg-elements -->\n<div
+        class=\"bg-elements\">\n<!-- begin header -->\n<div id=\"header\" class=\"container\">\n<!--
+        begin top-bar -->\n<div class=\"top-bar\">\n<!-- begin uni login -->\n<script
+        type=\"text/javascript\">\nvar returnURL = document.location.href;\nvar anCV
+        = \"\";\nvar myEspnText = {'welcometext':'Welcome','register':'Register','signin':'Sign
+        In','signout':'Sign Out','heliumdown':'Login Temporarily Unavailable','connectedfacebook':'Connected
+        to Facebook','connectfacebook':'Connect with Facebook','activateinsider':'Activate
+        Insider'};\n</script>\n<form id=\"form-memberarea\">\n<input type=\"hidden\"
+        name=\"language\" id=\"language\" value=\"en\"/>\n<input type=\"hidden\" name=\"affiliateName\"
+        id=\"memberAreaAffiliateName\" value=\"espn\"/>\n<input type=\"hidden\" name=\"regFormId\"
+        id=\"regFormId\" value=\"espn\"/>\n</form>\n<div class=\"signin\" id=\"signin\"></div>\n<script>espn.memberservices.welcome();</script>\n<div
+        class=\"nav-edition editions\">\n<label>EDITIONS:</label>\n<ul class=\"main\">\n\t<li
+        class=\"e-usa active\"><a href=\"http://espn.go.com/\" name=\"&amp;lpos=editionsnav&amp;lid=usa\">USA</a></li>\n\t<li
+        class=\"e-deportes\"><a href=\"http://espndeportes.espn.go.com/\" name=\"&amp;lpos=editionsnav&amp;lid=deportes\"
+        class=\"{langPref:'spanish'}\">ESPA&#x00D1;OL</a></li>\n\t<li class=\"last
+        dropdown\">\n\t<ul class=\"\">\n\t<li class=\"selected\">More</li>\n\t<li><a
+        href=\"http://www.espn.com.au\" name=\"&amp;lpos=editionsnav&amp;lid=australia\">Australia</a></li>\n\t<li><a
+        href=\"http://www.espn.com.br\" name=\"&amp;lpos=editionsnav&amp;lid=brazil\">Brazil</a></li>\n\t<li><a
+        href=\"http://www.espn.co.uk/\" name=\"&amp;lpos=editionsnav&amp;lid=uk\">United
+        Kingdom</a></li>\n\t</ul>\n\t</li>\n</ul>\n</div>\n\n<div class=\"nav-edition\">\n<label>CITIES:</label>\n<ul
+        class=\"main\">\n\t<li class=\"e-boston\"><a href=\"http://espn.go.com/boston/\"
+        name=\"&amp;lpos=citynav&amp;lid=boston\">BOSTON</a></li>\n\t<li class=\"e-chicago\"><a
+        href=\"http://espn.go.com/chicago/\" name=\"&amp;lpos=citynav&amp;lid=chicago\">CHICAGO</a></li>\n\t<li
+        class=\"e-dallas\"><a href=\"http://espn.go.com/dallas/\" name=\"&amp;lpos=citynav&amp;lid=dallas\">DALLAS</a></li>\n\t<li
+        class=\"e-losangeles\"><a href=\"http://espn.go.com/los-angeles/\" name=\"&amp;lpos=citynav&amp;lid=losangeles\">LOS
+        ANGELES</a></li>\n\t<li class=\"last e-newyork\"><a href=\"http://espn.go.com/new-york/\"
+        name=\"&amp;lpos=citynav&amp;lid=newyork\">NEW YORK</a></li>\n</ul>\n</div>\n</div>\n<!--
+        end top-bar -->\n<!-- begin espn-logo -->\n<div class=\"espn-logo\">\n<h1>\n<a
+        href=\"http://espn.go.com/\" name=\"&lpos=sitenavdefault&lid=sitenav_main-logo\"
+        class=\"espn\">ESPN</a> <a href=\"http://espn.go.com/nhl/\" class=\"section-title\">NHL</a></h1>\n</div>\n<!--
+        end espn-logo -->\n<!-- begin ad -->\n<span class=\"presby\">\n<script>if(\"undefined\"!=typeof
+        ad_kvps&&\"undefined\"!=typeof ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof
+        ad_ord){if(\"undefined\"==typeof ad_site||\"undefined\"==typeof ad_zone)var
+        ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayer\";var pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var
+        this_ad_u=ad_u.replace(\";\",pipe+\"sz=150x45,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=SponsoredByLogoHeader;\"+this_ad_u+\"sz=150x45,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"SponsoredByLogoHeader\" data-cb-dfp-id=\"'+ad_kvps+'sz=150x45,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=150x45,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=150x45,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n</span>\n<!-- end ad -->\n<div id=\"shop\"><a
+        class=\"shop-btn\" href=\"http://espn.teamfanshop.com/?source=ESPN_HPHEADERLINK%3ASHOPBUTTONHEADER%3ANHL_3_21_2012\"
+        name=\"&lpos=sitenavdefault&lid=sitenav_shopbutton\">Shop</a></div><style>.ie6
+        #searchBox, .ie6 #searchBox div { display: inline; } </style><!-- begin search
+        -->\n<div id=\"nav-main-search\">\n<form id=\"searchBox\" name=\"searchBox\"
+        action=\"http://search.espn.go.com/results\" method=\"get\" accept-charset=\"utf-8\"
+        style=\"color: #999999;\">\n<div class=\"clearfix\">\n<input autocomplete=\"off\"
+        class=\"text\" type=\"text\" placeholder=\"Search\" name=\"searchString\"
+        id=\"searchString\" />\n<input type=\"hidden\" name=\"page\" id=\"page\" value=\"null\"
+        />\n<input type=\"hidden\" name=\"fromForm\" value=\"true\" />\n<input class=\"submit\"
+        type=\"submit\" value=\"\" />\n</div>\n</form>\n</div>\n<!-- end search -->\n</div>\n<!--
+        end header -->\n\n<script>if(\"undefined\"!=typeof ad_kvps&&\"undefined\"!=typeof
+        ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof ad_ord){if(\"undefined\"==typeof
+        ad_site||\"undefined\"==typeof ad_zone)var ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayer\";var
+        pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var this_ad_u=ad_u.replace(\";\",pipe+\"sz=1280x946,200x800,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=Background_Skin;\"+this_ad_u+\"sz=1280x946,200x800,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"Background_Skin\" data-cb-dfp-id=\"'+ad_kvps+'sz=1280x946,200x800,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=1280x946,200x800,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=1280x946,200x800,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n<!-- begin subheader -->\n<div id=\"subheader\">\n<!--
+        begin content -->\n<div id=\"content-wrapper\">\n<div id=\"ad-top\" class=\"container\">\n<!--
+        begin Banner ad -->\n<div class=\"span-6 ad banner top\"><div class=\"ad-center\"><div
+        class=\"ad-wrapper\">\n<script>if(\"undefined\"!=typeof ad_kvps&&\"undefined\"!=typeof
+        ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof ad_ord){if(\"undefined\"==typeof
+        ad_site||\"undefined\"==typeof ad_zone)var ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayer\";var
+        pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var this_ad_u=ad_u.replace(\";\",pipe+\"sz=728x90,970x66,924x50,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=Banner;\"+this_ad_u+\"sz=728x90,970x66,924x50,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"Banner\" data-cb-dfp-id=\"'+ad_kvps+'sz=728x90,970x66,924x50,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=728x90,970x66,924x50,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=nhl;tm=det;pl=1223;sz=728x90,970x66,924x50,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n</div></div></div>\n<!-- end Banner
+        ad -->\n</div>\n<div id=\"content\" class=\"container\">\n<div id=\"fb-root\"></div><!--[if
+        lte IE 7]><link rel=\"stylesheet\" charset=\"utf-8\" media=\"screen\" href=\"http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css\"
+        type=\"text/css\" /><div class=\"span-6\" id=\"browser-alert-wrapper\" style=\"display:none;\"><div
+        class=\"mod-container mod-no-header-footer browser-alert\"><div class=\"mod-content\"><div
+        class=\"gradient-container\"><h1><span>Your Web Browser</span> is no longer
+        supported</h1><p>To experience everything that ESPN.com has to offer, we recommend
+        that you upgrade to a newer version of your web browser. Click the upgrade
+        button to the right or <a href=\"http://espn.go.com/espn/news/story?id=5630562\">learn
+        more</a>.</p><ul><li><a class=\"btn-upgrade\" href=\"http://www.microsoft.com/windows/internet-explorer/default.aspx\">Upgrade</a></li><li><a
+        class=\"btn-faq\" href=\"http://espn.go.com/espn/news/story?id=5630562\">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var
+        a=b(\"#browser-alert-wrapper\");if(espn.cookie.get(\"browseralert\")!=\"true\"){b('<a
+        class=\"btn-close\" href=\"#\">Close</a>').bind(\"click\",function(){a.hide();espn.cookie.set(\"browseralert\",\"true\",30);return
+        false}).appendTo(a.find(\".gradient-container\"));a.show();espn.cookie.set(\"browseralert\",\"true\")}},100)})(jQuery);</script><![endif]-->\n<div
+        id=\"fb-root\"></div>\n<script>\n\twindow.fbAsyncInit = function() {\n\t\tFB.init({\n\t\t\tappId:
+        \"116656161708917\",\n\t\t\tcookie: true, // these two are not required for
+        partners that\n\t\t\tstatus: true, // only rely on stk plugins and don't use
+        connect\n\t\t\txfbml: true,\n\t\t\tchannelUrl: document.location.protocol
+        + '//' + document.domain + '/facebook/channel.html'\n\t\t});\n\t\tjQuery(document).ready(function
+        () {\n\t\t\tFB.XFBML.parse();\n\t\t\tFB.Event.subscribe('edge.create', function(href,
+        widget) {\n\t\t\t\tif(typeof anTrackLink === 'function') {\n\t\t\t\t\tanTrackLink(jQuery('.fb_iframe_widget')[0],'espn','facebook','like');\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t};\n\t(function()
+        {\n\t\tvar e = document.createElement('script'); e.async = true;\n\t\te.src
+        = document.location.protocol + '//connect.facebook.net/en_US/all.js';\n\t\tdocument.getElementById('fb-root').appendChild(e);\n\t}());\n</script>\n\n<style>\n\n.mod-myespn
+        .mod-content a img {\n\n    padding: 10px;\n\n    margin:0px;\n\n}\n\n.mod-page-header
+        ul.player-favorites a.btn-add-fave-player { color: #ddd !important; }\n\n.mod-page-header
+        ul.player-favorites a.btn-add-fave-player.favorite { color: #000 !important;
+        }\n\n</style>\n\n<script type=\"text/javascript\">\n\n\t(function($) {\n\n\t\tvar
+        loggedIn = espn.core.loggedIn;\n\n\t\tvar displayModule = false;\n\n\t\tvar
+        showAddButton = true;\n\n\t\tvar fadeTime = 1500;\n\n\t\tvar baseRef = '/';\n\n\t\tvar
+        lang = 'en';\n\n\t\tvar playerId = 1223;\n\n\t\tvar sportId = $('body').metadata()['sportId'];\n\n\t\tvar
+        playerName = 'Pavel Datsyuk';\n\n\t\tvar abbrevs = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',600:'soccer',850:'tennis',1106:'golf',2020:'nascar',3301:'mma',
+        3540:'ncfrecruit', 3550:'ncbrecruit', 3551:'hs_bsbrecruit', 3552:'hs_sfbrecruit'}\n\n\t\tvar
+        sportAbbrev = abbrevs[sportId];\n\n\t\tvar sportAbbrevFav = abbrevs[sportId];\n\n\t\tvar
+        count = 0;\n\n\t\tvar displayModule = false;\n\n\t\tvar appId = 1\n\n\t\tvar
+        tabName = \"players\"\n\n\t\tif (sportId == 3540 || sportId == 3550 || sportId
+        == 3551 || sportId == 3552) {\n\n\t\t\tappId = 3;\n\n\t\t}\n\n\t\tif(sportId
+        == 3540 || sportId == 3550){\n\n\t\t\ttabName = \"recruits\"\n\n\t\t}\n\n\t\tfunction
+        resetData(checkSport, checkPlayer){\n\n\t\t\tif (loggedIn){\n\n\t\t\t\tespn.p13n.reset({\n\n\t\t\t\t\tsuccess:
+        function(data){\n\n\t\t\t\t\t\tif (data != null && data != 'UNDEF' && typeof(data.myPlayers)
+        != 'UNDEF' && data.myPlayers != null){\n\n\t\t\t\t\t\t\tvar count = 0;\n\n\t\t\t\t\t\t\tvar
+        sportTypes = {10:'mlb',46:'nba',28:'nfl',90:'nhl',850:'tennis',1106:'golf',2020:'nascar',3301:'mma'}\n\n\t\t\t\t\t\t\tvar
+        sportAbbrevs = {10:'MLB',46:'NBA',28:'NFL',90:'NHL',850:'Tennis',1106:'Golf',2020:'NASCAR',3301:'MMA'}\n\n\t\t\t\t\t\t\t$.each(data.myPlayers,
+        function(i,item){\n\n\t\t\t\t\t\t\t\tif (typeof(item.sport) != 'UNDEF' &&
+        item.sport != null && item.sport == sportId && count < 12) {\n\n\t\t\t\t\t\t\t\t\tvar
+        image = '';\n\n\t\t\t\t\t\t\t\t\tsportType = sportTypes[item.sport];\n\n\t\t\t\t\t\t\t\t\tsportAbbrev
+        = sportAbbrevs[item.sport];\n\n\t\t\t\t\t\t\t\t\tsport = item.sport;\n\n\t\t\t\t\t\t\t\t\tabbrev
+        = '';\n\n\t\t\t\t\t\t\t\t\tswabbrev = '';\n\n\t\t\t\t\t\t\t\t\tif (typeof(item.abbrev)
+        != 'UNDEF' && item.abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\tabbrev = item.abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\tswabbrev
+        = item.sw_abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tdesc
+        = item.text;\n\n\t\t\t\t\t\t\t\t\tdescSEO = desc;\n\n\t\t\t\t\t\t\t\t\twhile(descSEO.indexOf('
+        ')!=-1)descSEO=descSEO.replace(' ','-');\n\n\t\t\t\t\t\t\t\t\tvar classname
+        = '';\n\n\t\t\t\t\t\t\t\t\tif (sport == 46 || sport == 10 || sport == 90 ||
+        sport == 28 || sport == 1106 || sport == 850){\n\n\t\t\t\t\t\t\t\t\t\timage
+        = 'href=\"http://espn.go.com/' + sportType + baseRef + 'player/_/id/' + item.id
+        + '/' + descSEO.toLowerCase() + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/'
+        + sportType + '/players/full/' + item.id + '.png&w=35&h=48&scale=crop&background=0xcccccc&transparent=false\"></a>';\n\n\t\t\t\t\t\t\t\t\t}
+        else if (sport == 2020) {\n\n\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/rpm/driver?driverId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/i/rpm/mugs/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (count == 0 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').html('');\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (image != ''){\n\n\t\t\t\t\t\t\t\t\t\tif (count == 14) {\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a id=\"lastplayer\" ' + image;\n\n\t\t\t\t\t\t\t\t\t\t} else {\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a ' + image;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif (checkPlayer
+        == item.id && checkSport == item.sport){\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn
+        .personalization-teams').prepend(image).fadeIn(fadeTime, function(){\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('#lastplayer').remove();\n\n\t\t\t\t\t\t\t\t\t\t\t\tespn.core.init.faves();\n\n\t\t\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\telse
+        if (checkPlayer == 0) {\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').append(image);\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tcount++;\n\n\t\t\t\t\t\t\t\t\tif
+        (count == 1 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t$('#myespn-personalization').show();\n\n\t\t\t\t\t\t\t\t\t\tdisplayModule
+        = true;\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\tif
+        (count < 15) {\n\n\t\t\t\t\t\t\t\t$.each(data.myPlayers, function(i,item){\n\n\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sport) != 'UNDEF' && item.sport != null && item.sport != sportId
+        && count < 15) {\n\n\t\t\t\t\t\t\t\t\t\tvar image = '';\n\n\t\t\t\t\t\t\t\t\t\tsportType
+        = sportTypes[item.sport];\n\n\t\t\t\t\t\t\t\t\t\tsportAbbrev = sportAbbrevs[item.sport];\n\n\t\t\t\t\t\t\t\t\t\tsport
+        = item.sport;\n\n\t\t\t\t\t\t\t\t\t\tabbrev = '';\n\n\t\t\t\t\t\t\t\t\t\tswabbrev
+        = '';\n\n\t\t\t\t\t\t\t\t\t\tif (typeof(item.abbrev) != 'UNDEF' && item.abbrev
+        != null){\n\n\t\t\t\t\t\t\t\t\t\t\tabbrev = item.abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\t\tswabbrev
+        = item.sw_abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tdesc
+        = item.text;\n\n\t\t\t\t\t\t\t\t\t\tdescSEO = desc;\n\n\t\t\t\t\t\t\t\t\t\twhile(descSEO.indexOf('
+        ')!=-1)descSEO=descSEO.replace(' ','-');\n\n\t\t\t\t\t\t\t\t\t\tif (sport
+        == 46 || sport == 10 || sport == 90 || sport == 850){\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = 'href=\"http://espn.go.com/' + sportType + baseRef + 'player/_/id/' + item.id
+        + '/' + descSEO.toLowerCase() + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/'
+        + sportType + '/players/full/' + item.id + '.png&w=35&h=48&scale=crop&background=0xcccccc&transparent=false\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t}
+        else if (sport == 28) {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/'
+        + sportType + baseRef + 'players/profile?playerId=' + item.id + '\"  title=\"'
+        + desc + '\"><img src=\"http://a.espncdn.com/i/headshots/' + sportType + '/players/35/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t} else if (sport == 1106)
+        {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/golf/players/profile?playerId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/golfonline/img/profiles/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t} else if (sport == 2020)
+        {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/rpm/driver?driverId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/i/rpm/mugs/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (count == 0 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').html('');\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (image != ''){\n\n\t\t\t\t\t\t\t\t\t\t\tif (count == 14) {\n\n\t\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a id=\"lastplayer\" ' + image;\n\n\t\t\t\t\t\t\t\t\t\t\t} else {\n\n\t\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a ' + image;\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t\tif (checkPlayer
+        == item.id && checkSport == item.sport){\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn
+        .personalization-teams').prepend(image).fadeIn(fadeTime, function(){\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t$('#lastplayer').remove();\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tespn.core.init.faves();\n\n\t\t\t\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t\telse
+        if (checkPlayer == 0) {\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').append(image);\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tcount++;\n\n\t\t\t\t\t\t\t\t\t\tif
+        (count == 1 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t\t$('#myespn-personalization').show();\n\n\t\t\t\t\t\t\t\t\t\t\tdisplayModule
+        = true;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t}\n\n\t\t\t\t});\n\n\t\t\t}\n\n\t\t}\n\n\t\t$(document).ready(function()
+        {\n\n\t\t\tresetData(0, 0);\n\n\t\t\tif (sportAbbrevFav != 'ncf' && sportAbbrevFav
+        != 'ncb' && sportAbbrevFav != 'mma'){\n\n\t\t\t\tif (loggedIn){\n\n\t\t\t\t\tif
+        ($('.add-fave-player').length > 0){\n\n\t\t\t\t\t\t$('.add-fave-player').html('<a
+        class=\"btn-add-fave-player\"></a>');\n\n\t\t\t\t\t}\n\n\t\t\t\t\tespn.p13n.get({\n\n\t\t\t\t\t\t\"success\"
+        : function(data) {\n\n\t\t\t\t\t\t\tif (data!=null && data!='UNDEF' && typeof(data.myPlayers)
+        != 'UNDEF' && data.myPlayers != null) {\n\n\t\t\t\t\t\t\t\t$.each(data.myPlayers,
+        function(i,item) {\n\n\t\t\t\t\t\t\t\t\tif (typeof(item.sport) != 'UNDEF'
+        && item.sport != null) {\n\n\t\t\t\t\t\t\t\t\t\tif (item.sport == sportId
+        && item.id == playerId){\n\n\t\t\t\t\t\t\t\t\t\t\tshowAddButton = false;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tif
+        (showAddButton){\n\n\t\t\t\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').html('Add
+        to my favorites').show().attr(\"onclick\",\"anTrackLink(this,'espn','playerprofile','\"
+        + sportAbbrevFav + \"_player_addfavorite_loggedin-add'); return false;\");\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\telse{\n\n\t\t\t\t\t\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').html('Favorite Player').show().addClass('favorite
+        cbOverlay').attr({href:'',name:'&lpos=playerprofile&lid=' + sportAbbrevFav
+        + '_player_addfavorite_loggedin-modify',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:tabName});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t},
+        {appId: appId});\n\n\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').click(function(){\n\n\t\t\t\t\t\tif
+        (showAddButton){ // don't allow the button to click through if it is informing
+        you of their favorite player\n\n\t\t\t\t\t\t\tshowAddButton = false; // don't
+        allow multiple clicks during the transition\n\n\t\t\t\t\t\t\tespn.p13n.add(\n\n\t\t\t\t\t\t\t\t{\n\n\t\t\t\t\t\t\t\t\t\"players\":
+        sportId+\":\"+playerId+\":::\"+appId\n\n\t\t\t\t\t\t\t\t},\n\n\t\t\t\t\t\t\t\t{\n\n\t\t\t\t\t\t\t\t\t\"success\"
+        : function() {\n\n\t\t\t\t\t\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').html('Added').addClass('favorite').css('cursor','default');\n\n\t\t\t\t\t\t\t\t\t\tresetData(sportId,
+        playerId);\n\n\t\t\t\t\t\t\t\t\t},\n\n\t\t\t\t\t\t\t\t\t\"error\" : function()
+        {\n\n\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t);\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t});\n\n\t\t\t\t}\n\n\t\t\t\telse{\n\n\t\t\t\t\tif
+        ($('.add-fave-player').length > 0){\n\n\t\t\t\t\t\t$('.add-fave-player').html('<a
+        class=\"btn-add-fave-player\">Sign in to personalize</a>');\n\n\t\t\t\t\t}\n\n\t\t\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').show().attr('href','','name','&lpos=playerprofile&lpos=playerprofile&lid='
+        + sportAbbrevFav + '_player_addfavorite_loggedout').attr('tref','/members/v3_1/login').attr('data-options','{\"addPlayers\":\"'+sportId+':'+playerId+'\",\"width\":\"820\",\"height\":\"385\"}').addClass(\"cbOverlay\");\n\n\t\t\t\t}\n\n\t\t\t}\n\n\n\n\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').hover(\n\n\t\t\t\tfunction(){\n\n\t\t\t\t\t$(this).addClass('favorite');\n\n\t\t\t\t},\n\n\t\t\t\tfunction(){\n\n\t\t\t\t\tif
+        (showAddButton){\n\n\t\t\t\t\t\t$(this).removeClass('favorite');\n\n\t\t\t\t\t}\n\n\t\t\t\t}\n\n\t\t\t);\n\n\n\n\t\t\t$('.inline-header
+        ul.links li a').addClass('cbOverlay').attr({href:'',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:tabName});\n\n\n\n\t\t\tif
+        (sportAbbrevFav != 'ncf'){\n\n\t\t\t\t$(\".split-select\").click(function(){\n\n\t\t\t\t\tif
+        ($('.split-level-items').length > 0){\n\n\t\t\t\t\t\t$(\".split-level-items\").toggle();\n\n\t\t\t\t\t\t$(\".split-level-content\").toggle();\n\n\t\t\t\t\t}
+        else {\n\n\t\t\t\t\t\tvar teamId = $(this).attr('id');\n\n\t\t\t\t\t\tvar
+        posId = $(this).attr('rel');\n\n\t\t\t\t\t\tvar dlink = '/nhl/format/player/design09/dropdown';\n\n\t\t\t\t\t\tif
+        (lang == 'es') {\n\n\t\t\t\t\t\t\tdlink = '/nhl/deportes/format/player/design09/dropdown';\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t$.ajax({\n\n\t\t\t\t\t\t\ttype:\"GET\",\n\n\t\t\t\t\t\t\turl:
+        dlink,\n\n\t\t\t\t\t\t\tdata: 'teamId='+teamId+'&posId='+posId+'&lang='+lang,\n\n\t\t\t\t\t\t\tdataType:
+        \"html\",\n\n\t\t\t\t\t\t\tsuccess: function(html){\n\n\t\t\t\t\t\t\t\t$('.mod-split-menu').append(html);\n\n\t\t\t\t\t\t\t\t$(\".split-level-items\").toggle();\n\n\t\t\t\t\t\t\t\t$(\".split-level-content\").toggle();\n\n\t\t\t\t\t\t\t\t$(\".main-items
+        a\").bind('mouseover click', function(){\n\n\t\t\t\t\t\t\t\t\t$('.main-items
+        li.split-hover-bg').removeClass('split-hover-bg');\n\n\t\t\t\t\t\t\t\t\t$(this).parent().addClass('split-hover-bg');\n\n\t\t\t\t\t\t\t\t\tvar
+        thisId = $(this).attr('id');\n\n\t\t\t\t\t\t\t\t\t$('.split-level-content-list').each(function(){\n\n\t\t\t\t\t\t\t\t\t\t$(this).hide();\n\n\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t$('#'+thisId+'list').show();\n\n\t\t\t\t\t\t\t\t\treturn
+        false;\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t$(document).click(function(e){\n\n\t\t\t\t\t\t\t\t\tif
+        (e.button != 2) {\n\n\t\t\t\t\t\t\t\t\t\t$(\".split-level-items\").hide();\n\n\t\t\t\t\t\t\t\t\t\t$(\".split-level-content\").hide();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t});\n\n\t\t\t\t\t}\n\n\t\t\t\t\treturn
+        false;\n\n\t\t\t\t});\n\n\t\t\t}\n\n\n\n\n\n\t\t\t$(\"#player-status-main\").click(function(){\n\n\t\t\t\t$(\"#player-status-main
+        #full-content\").toggle();\n\n\t\t\t});\n\n\n\n\t\t});\n\n\t})(jQuery);\n\n</script>\n<script
+        type=\"text/javascript\">\n\tvar loggedIn = espn.core.loggedIn;\n\t(function($)
+        {\n\t\t$(document).ready(function() {\n\t\t\tvar playerId = 1223;\n\t\t\tvar
+        playerName = 'Pavel Datsyuk';\n\t\t\tvar leagueId = '';\n\t\t\tvar leagueName
+        = '';\n\t\t\tvar leagues = '';\n\t\t\tvar leaguenames = '';\n\t\t\t\n\t\t\tfunction
+        getFantasyData(league, name, updatetext) {\n\t\t\t\t$.ajax({\n\t\t\t\t\ttype:\"GET\",\n\t\t\t\t\turl:
+        '/nhl/format/player/design09/fantasy',\n\t\t\t\t\tdata: 'playerId='+playerId+'&leagueId='+league,\n\t\t\t\t\tdataType:
+        \"json\",\n\t\t\t\t\tsuccess: function(obj){\n\t\t\t\t\t\tprintFantasyData(obj,
+        '', league, name, updatetext);\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\treturn false;\n\t\t\t}\t\n\t\t\t\n\t\t\tfunction
+        printFantasyData(data, datastring, league, name, updatetext) {\n\t\t\t\tif
+        (data == null) {\n\t\t\t\t\tif (datastring == '') {\n\t\t\t\t\t\tdatastring
+        = $('#fantasy-content').html();\n\t\t\t\t\t}\n\t\t\t\t\tif (datastring !=
+        null && datastring != '') {\n\t\t\t\t\t\tdata = jQuery.parseJSON(datastring);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tif
+        (data != null && data != '' && (data[\"mostRecentNews\"] != null || data[\"seasonOutlook\"]
+        != null || data[\"playerRaterSEASON\"] != null)) {\n\t\t\t\t\tfhtml = '';\n\t\t\t\t\tstatushtml
+        = '';\n\t\t\t\t\tif (updatetext == true) {\n\t\t\t\t\t\tvar date = '';\n\t\t\t\t\t\tif
+        (data[\"mostRecentNews\"] != null) {\n\t\t\t\t\t\t\tif (data[\"mostRecentNews\"][\"news\"]
+        != null) {\n\t\t\t\t\t\t\t\tfhtml += \"<p><span>News: </span>\" + data[\"mostRecentNews\"][\"news\"];\n\t\t\t\t\t\t\t\tif
+        (data[\"mostRecentNews\"][\"date\"] != null) {\n\t\t\t\t\t\t\t\t\tfhtml +=
+        \" (\" +  data[\"mostRecentNews\"][\"date\"] + \")\";\n\t\t\t\t\t\t\t\t}\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tfhtml
+        += \"</p>\";\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\tif (data[\"mostRecentNews\"][\"spin\"]
+        != null) {\n\t\t\t\t\t\t\t\tfhtml += \"<p><span>Spin: </span>\" + data[\"mostRecentNews\"][\"spin\"]
+        + \"</p>\";\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif ($('#showproj').attr('value')
+        == 'true') {\n\t\t\t\t\t\t\tif (data[\"seasonOutlook\"] != null) {\n\t\t\t\t\t\t\t\tif
+        (data[\"seasonOutlook\"][\"outlook\"] != null) {\n\t\t\t\t\t\t\t\t\tfhtml
+        += '<p><span>ESPN Fantasy Projection: </span>' + data[\"seasonOutlook\"][\"outlook\"]
+        + '</p>';\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tif (date = '' && data[\"seasonOutlook\"][\"date\"]
+        != null) {\n\t\t\t\t\t\t\t\t\tdate = data[\"seasonOutlook\"][\"date\"]\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif
+        (date != '') {\n\t\t\t\t\t\t\tfhtml += '<p class=\"date bottom-border\"><cite>'
+        + date + \"</cite></p>\";\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml += '<p>';\n\t\t\t\t\t\tif
+        (leagues != '' && leagues.length > 0 && leaguenames != '' && leaguenames.length
+        > 0) {\n\t\t\t\t\t\t\tleaguearray = leagues.split('~');\n\t\t\t\t\t\t\tnamesarray
+        = leaguenames.split('~');\n\t\t\t\t\t\t\tif (leaguearray != null && leaguearray.length
+        > 0) {\n\t\t\t\t\t\t\t\tfhtml += '<select id=\"fantasy-teams\">';\n\t\t\t\t\t\t\t\tfhtml
+        += '<option value=\"#\">Select a League</option>';\n\t\t\t\t\t\t\t\tfor (i=0;
+        i<leaguearray.length; i++) {\n\t\t\t\t\t\t\t\t\tif (namesarray.length > i)
+        {\n\t\t\t\t\t\t\t\t\t\tfhtml += '<option ';\n\t\t\t\t\t\t\t\t\t\tif (leaguearray[i]
+        == league) {\n\t\t\t\t\t\t\t\t\t\t\tfhtml += 'selected ';\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\tfhtml
+        += 'value=\"' + leaguearray[i] + '\">' + namesarray[i] + '</option>';\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tfhtml
+        += '</select> ';\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif (league !=
+        null && league != '') {\n\t\t\t\t\t\t\tif (data[\"playerStatus\"] != null)
+        {\n\t\t\t\t\t\t\t\tif (data[\"playerStatus\"][\"currentStatus\"] != null)
+        {\n\t\t\t\t\t\t\t\t\tfhtml += '<span style=\"font-weight:normal;\" id=\"fantasy-status\">';\n\t\t\t\t\t\t\t\t\tif
+        (data[\"playerStatus\"][\"currentStatus\"] == \"ONTEAM\" && data[\"playerStatus\"][\"currentTeam\"]
+        != null) {\n\t\t\t\t\t\t\t\t\t\tfhtml += 'Owned By: <span>' + data[\"playerStatus\"][\"currentTeam\"]
+        + '</span>';\n\t\t\t\t\t\t\t\t\t} else if (data[\"playerStatus\"][\"currentStatus\"]
+        == \"FA\") {\n\t\t\t\t\t\t\t\t\t\tfhtml += '<span>Status:</span> <a name=\"&lpos=playerprofile&lid=nhl_player_fantasy_league\"
+        href=\"http://games.espn.go.com/fhl/freeagency?leagueId=' + league + '\">Free
+        Agent</a>';\n\t\t\t\t\t\t\t\t\t} else if (data[\"playerStatus\"][\"currentStatus\"]
+        == \"WAIVERS\") {\n\t\t\t\t\t\t\t\t\t\tfhtml += '<span>Status:</span> <a name=\"&lpos=playerprofile&lid=nhl_player_fantasy_league\"
+        href=\"http://games.espn.go.com/fhl/freeagency?leagueId=' + league + '\">On
+        Waivers</a>';\n\t\t\t\t\t\t\t\t\t\tif (data[\"playerStatus\"][\"waiverProcessDate\"]
+        != null) {\n\t\t\t\t\t\t\t\t\t\t\tfhtml += ' (' + data[\"playerStatus\"][\"waiverProcessDate\"]
+        + ')';\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\tfhtml
+        += '</span>';\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml
+        += '</p><div id=\"fantasy-stats\" class=\"clear\">';\n\t\t\t\t\t} else if
+        (league != null && league != '') {\n\t\t\t\t\t\tif (data[\"playerStatus\"]
+        != null) {\n\t\t\t\t\t\t\tif (data[\"playerStatus\"][\"currentStatus\"] !=
+        null) {\n\t\t\t\t\t\t\t\tif (data[\"playerStatus\"][\"currentStatus\"] ==
+        \"ONTEAM\" && data[\"playerStatus\"][\"currentTeam\"] != null) {\n\t\t\t\t\t\t\t\t\tstatushtml
+        += 'Owned By: <span>' + data[\"playerStatus\"][\"currentTeam\"] + '</span>';\n\t\t\t\t\t\t\t\t}
+        else if (data[\"playerStatus\"][\"currentStatus\"] == \"FA\") {\n\t\t\t\t\t\t\t\t\tstatushtml
+        += '<span>Status:</span> <a name=\"&lpos=playerprofile&lid=nhl_player_fantasy_league\"
+        href=\"http://games.espn.go.com/fhl/freeagency?leagueId=' + league + '\">Free
+        Agent</a>';\n\t\t\t\t\t\t\t\t} else if (data[\"playerStatus\"][\"currentStatus\"]
+        == \"WAIVERS\") {\n\t\t\t\t\t\t\t\t\tstatushtml += '<span>Status:</span> <a
+        name=\"&lpos=playerprofile&lid=nhl_player_fantasy_league\" href=\"http://games.espn.go.com/fhl/freeagency?leagueId='
+        + league + '\">On Waivers</a>';\n\t\t\t\t\t\t\t\t\tif (data[\"playerStatus\"][\"waiverProcessDate\"]
+        != null) {\n\t\t\t\t\t\t\t\t\t\tstatushtml += ' (' + data[\"playerStatus\"][\"waiverProcessDate\"]
+        + ')';\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\tif
+        (data[\"playerRaterSEASON\"] != null) {\n\t\t\t\t\t\tfhtml += '<h5 style=\"width:56%;float:left;\">PLAYER
+        RATING</h5>'\n\t\t\t\t\t\tif (data[\"percentOwned\"] != null) {\n\t\t\t\t\t\t\tfhtml
+        += '<h5 style=\"margin:0px;float:left;\">RANKINGS</h5>'\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml
+        += '<ul class=\"floatleft\"><li class=\"first\"><ul>';\n\t\t\t\t\t\tfhtml
+        += '<li>Season<div>' + data[\"playerRaterSEASON\"] + '</div></li>';\n\t\t\t\t\t\tif
+        (data[\"playerRater7DAY\"] != null) {\n\t\t\t\t\t\t\tfhtml += '<li class=\"last\">7
+        Days<div>' + data[\"playerRater7DAY\"] + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml
+        += '</ul></li><li><ul>';\n\t\t\t\t\t\tif (data[\"playerRater15DAY\"] != null)
+        {\n\t\t\t\t\t\t\tfhtml += '<li>15 Days<div>' + data[\"playerRater15DAY\"]
+        + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif (data[\"playerRater30DAY\"]
+        != null) {\n\t\t\t\t\t\t\tfhtml += '<li class=\"last\">30 Days<div>' + data[\"playerRater30DAY\"]
+        + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml += '</ul></li></ul>';\n\t\t\t\t\t}
+        else if (data[\"averagePoints\"] != null) {\n\t\t\t\t\t\tfhtml += '<h5>POINTS</h5><ul
+        class=\"floatleft\"><li class=\"first\"><ul>';\n\t\t\t\t\t\tfhtml += '<li>Average<div>'
+        + data[\"averagePoints\"] + '</div></li>';\n\t\t\t\t\t\tif (data[\"totalPoints\"]
+        != null) {\n\t\t\t\t\t\t\tfhtml += '<li class=\"last\">Total<div>' + data[\"totalPoints\"]
+        + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml += '</ul></li><li><ul>';\n\t\t\t\t\t\tif
+        (data[\"points7DAY\"] != null) {\n\t\t\t\t\t\t\tfhtml += '<li>7 Days<div>'
+        + data[\"points7DAY\"] + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif (data[\"points15DAY\"]
+        != null) {\n\t\t\t\t\t\t\tfhtml += '<li class=\"last\">15 Days<div>' + data[\"points15DAY\"]
+        + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml += '</ul></li></ul>';\n\t\t\t\t\t}\n\t\t\t\t\tif
+        (data[\"percentOwned\"] != null) {\n\t\t\t\t\t\tfhtml += '<ul class=\"split
+        floatright\"><li><ul>';\n\t\t\t\t\t\tif (data[\"positionRank\"] != null) {\n\t\t\t\t\t\t\tfhtml
+        += '<li>POSITION RK<div>' + data[\"positionRank\"] + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml
+        += '<li>% OWNED<div>' + data[\"percentOwned\"] + '</div></li>';\n\t\t\t\t\t\tif
+        (data[\"averageDraftPosition\"] != null) {\n\t\t\t\t\t\t\tfhtml += '<li>AVG
+        DRAFTED<div>' + data[\"averageDraftPosition\"] + '</div></li>';\n\t\t\t\t\t\t}\n\t\t\t\t\t\tfhtml
+        += '</ul></li></ul>';\n\t\t\t\t\t}\n\t\t\t\t\tif (league != null && league
+        != '') {\n\t\t\t\t\t\tfhtml += '<p class=\"footer\"><a name=\"&lpos=playerprofile&lid=nhl_player_fantasy_league\"
+        href=\"http://games.espn.go.com/fhl/clubhouse?leagueId=' + league + '\">Go
+        to ' + name + ' &#187;</a></p>'\n\t\t\t\t\t} else {\n\t\t\t\t\t\tfhtml +=
+        '<p class=\"footer\"><a name=\"&lpos=playerprofile&lid=nhl_player_fantasy_home\"
+        href=\"http://games.espn.go.com/frontpage/hockey\">ESPN Fantasy Hockey &#187;</a></p>'\n\t\t\t\t\t}\n\t\t\t\t\tif
+        (updatetext == true) {\n\t\t\t\t\t\tfhtml += '</div>';\n\t\t\t\t\t}\n\t\t\t\t\tif
+        (fhtml != '') {\n\t\t\t\t\t\tif (updatetext == true) {\n\t\t\t\t\t\t\t$('#fantasy-content').html(fhtml);\n\t\t\t\t\t\t\t$('#fantasy-container').show();\n\t\t\t\t\t\t}
+        else {\n\t\t\t\t\t\t\tif (statushtml != '') {\n\t\t\t\t\t\t\t\t$('#fantasy-status').html(statushtml);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t$('#fantasy-stats').html(fhtml);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t$('#fantasy-teams').change(function(){\n\t\t\t\t\t\tgetFantasyData($(this).val(),
+        $('#fantasy-teams option:selected').text(), false);\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t});\t\t\t\t\t\t\t\n\t\t\t\t}\n\t\t\t}\t\n\t\t\t\n\t\t\tif
+        (loggedIn){\n\t\t\t\t$.getJSON(\"http://games.espn.go.com/fhl/api/v1/userEntries?callback=?\",\tfunction(data)
+        {\n\t\t\t\t\tif (data != null) {\n\t\t\t\t\t\tuserentries = data[\"userEntries\"];\n\t\t\t\t\t\tif
+        (userentries != null && userentries.length > 0) {\n\t\t\t\t\t\t\tfor (i=0;
+        i<userentries.length; i++) {\n\t\t\t\t\t\t\t\tthisleague = userentries[i];\n\t\t\t\t\t\t\t\tif
+        (thisleague[\"fantasyGame\"] == \"FHL\" || thisleague[\"fantasyGame\"] ==
+        \"fhl\") {\n\t\t\t\t\t\t\t\t\tif (leagues == '') {\n\t\t\t\t\t\t\t\t\t\tleagueId
+        = thisleague[\"leagueId\"];\n\t\t\t\t\t\t\t\t\t\tleagueName = thisleague[\"leagueName\"];\n\t\t\t\t\t\t\t\t\t}
+        else {\n\t\t\t\t\t\t\t\t\t\tleagues += '~';\n\t\t\t\t\t\t\t\t\t\tleaguenames
+        += '~';\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\tleagues += thisleague[\"leagueId\"];\n\t\t\t\t\t\t\t\t\tleaguenames
+        += thisleague[\"leagueName\"];\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}
+        else {\n\t\t\t\t\t\tprintFantasyData(null, '','','',true);\n\t\t\t\t\t}\n\t\t\t\t\tif
+        (leagues != '') {\n\t\t\t\t\t\tgetFantasyData(leagueId, leagueName, true);\n\t\t\t\t\t}
+        else {\n\t\t\t\t\t\tprintFantasyData(null, '','','',true);\n\t\t\t\t\t}\n\t\t\t\t});\t\t\t\n\t\t\t}
+        else {\t\t\t\t\n\t\t\t\tprintFantasyData(null, '','','',true);\n\t\t\t}\n\t\t});\n\t})(jQuery);\n</script><div
+        class=\"mod-container mod-no-header-footer mod-page-header\"><div class=\"player-shadows\"><div
+        class=\"shadow-right\"></div><div class=\"shadow-left\"></div></div><div class=\"mod-content\"><div
+        class=\"team-logo\"></div><div class=\"main-headshot\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&w=350&h=254\"
+        alt=\"Pavel Datsyuk\"></div><h1>Pavel Datsyuk</h1><div class=\"player-bio\"><ul
+        class=\"player-favorites\"><li class=\"add-fave-player\"></li></ul><div class=\"line-divider\"></div><ul
+        class=\"general-info\"><li class=\"first\">#13 C </li><li>5' 11\", 194 lbs</li><li
+        class=\"last\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">Detroit
+        Red Wings</a></li></ul><ul class=\"player-metadata floatleft\"><li><span>Born</span>Jul
+        19, 1978 in Sverdlovsk, USSR</li><li><span>Age</span>34</li><li><span>Drafted</span>1998:
+        6th Rnd, 171st by DET</li><li><span>Experience</span>12 years</li></ul></div><div
+        class=\"player-stats\"><p>2012-13 Season</p><table class=\"header-stats\"><thead><th>G</th><th>A</th><th>PTS</th></thead><tr><td>15</td><td>34</td><td>49</td></tr><tr
+        class=\"title\"><td colspan=\"3\"><p>Career</p></td></tr><tr class=\"career\"><td>255</td><td>512</td><td>767</td></tr></table><p
+        class=\"footer\"><a href=\"/nhl/player/stats/_/id/1223/pavel-datsyuk\">Complete
+        Stats &#187;</a></p></div></div><div class=\"header-bg\"></div><div class=\"field\"></div><div
+        class=\"header-overlay\"></div></div><div class=\"player-select-header\"><p>Go
+        to</p><div class=\"mod-split-menu\"><div class=\"split-select\" id=\"5\"><a
+        class=\"btn-split-btn\">Pavel Datsyuk</a></div></div></div><div class=\"mod-page-tabs
+        mod-pagenav-tabs\"><ul class=\"ui-tabs\"><li class=\"active\"><a href=\"/nhl/player/_/id/1223/pavel-datsyuk\">Player
+        Profile</a></li><li><a href=\"/nhl/player/stats/_/id/1223/pavel-datsyuk\">Stats</a></li><li><a
+        href=\"/nhl/player/splits/_/id/1223/pavel-datsyuk\">Splits</a></li><li><a
+        href=\"/nhl/player/gamelog/_/id/1223/pavel-datsyuk\">Game Log</a></li><li><a
+        href=\"/nhl/player/videos/_/id/1223/pavel-datsyuk\">Videos</a></li><li><a
+        href=\"/nhl/player/photos/_/id/1223/pavel-datsyuk\">Photos</a></li></ul></div><div
+        class=\"bg-opaque\"><div class=\"span-6 last\"><table class=\"player-profile-container\"><tr><td
+        class=\"profile-overview\" colspan=\"2\"></td></tr><tr><td class=\"profile-overview\"></td><td
+        class=\"profile-media\"></td></tr></table><div class=\"mod-container mod-table
+        mod-no-footer\" style=\"padding-top:5px;\"><div class=\"mod-header\"><h4>STATS</h4></div><div
+        class=\"mod-content\"><table cellspacing=\"1\" cellpadding=\"3\" class=\"tablehead\"><tr
+        class=\"colhead\"><th></th><th style=\"text-align:right !important;\" title=\"Games
+        Played\">GP</th><th style=\"text-align:right !important;\" title=\"Goals\">G</th><th
+        style=\"text-align:right !important;\" title=\"Assists\">A</th><th style=\"text-align:right
+        !important;\" title=\"Points\">PTS</th><th style=\"text-align:right !important;\"
+        title=\"Plus/Minus Ratings\">+/-</th><th style=\"text-align:right !important;\"
+        title=\"Penalty Minutes\">PIM</th><th style=\"text-align:right !important;\"
+        title=\"Shots on Goal\">SOG</th><th style=\"text-align:right !important;\"
+        title=\"Shooting Percentage\">%</th><th style=\"text-align:right !important;\"
+        title=\"Power-Play Goals\">PPG</th><th style=\"text-align:right !important;\"
+        title=\"Power-Play Assists\">PPA</th><th style=\"text-align:right !important;\"
+        title=\"Short Goals\">SHG</th><th style=\"text-align:right !important;\" title=\"Short
+        Assists\">SHA</th><th style=\"text-align:right !important;\" title=\"Game
+        Winning Goals\">GWG</th><th style=\"text-align:right !important;\" title=\"Time
+        on Ice per Game\">TOI/G</th><th style=\"text-align:right !important;\" title=\"Production\">PROD</th><tr
+        class=\"oddrow\"><td>2012-13 Regular Season</td><td style=\"text-align:right;\">47</td><td
+        style=\"text-align:right;\">15</td><td style=\"text-align:right;\">34</td><td
+        style=\"text-align:right;\">49</td><td style=\"text-align:right;\">21</td><td
+        style=\"text-align:right;\">14</td><td style=\"text-align:right;\">107</td><td
+        style=\"text-align:right;\">14.0</td><td style=\"text-align:right;\">8</td><td
+        style=\"text-align:right;\">8</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">3</td><td style=\"text-align:right;\">6</td><td
+        style=\"text-align:right;\">20:11</td><td style=\"text-align:right;\">19:21</td></tr><tr
+        class=\"evenrow\"><td>2012-13 Postseason</td><td style=\"text-align:right;\">14</td><td
+        style=\"text-align:right;\">3</td><td style=\"text-align:right;\">6</td><td
+        style=\"text-align:right;\">9</td><td style=\"text-align:right;\">2</td><td
+        style=\"text-align:right;\">4</td><td style=\"text-align:right;\">39</td><td
+        style=\"text-align:right;\">7.7</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">2</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">20:59</td><td style=\"text-align:right;\">32:38</td></tr><tr
+        class=\"oddrow\"><td>Career</td><td style=\"text-align:right;\">779</td><td
+        style=\"text-align:right;\">255</td><td style=\"text-align:right;\">512</td><td
+        style=\"text-align:right;\">767</td><td style=\"text-align:right;\">229</td><td
+        style=\"text-align:right;\">200</td><td style=\"text-align:right;\">1773</td><td
+        style=\"text-align:right;\">14.4</td><td style=\"text-align:right;\">75</td><td
+        style=\"text-align:right;\">199</td><td style=\"text-align:right;\">6</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">43</td><td
+        style=\"text-align:right;\">--</td><td style=\"text-align:right;\">--</td></tr></table><p
+        class=\"footer\"><a href=\"/nhl/player/stats/_/id/1223/pavel-datsyuk\">Complete
+        Stats &#187;</a></p></div></div><div class=\"mod-container mod-table mod-no-footer\"><div
+        class=\"mod-header\"><h4>GAME LOG</h4></div><div class=\"mod-content\"><table
+        cellspacing=\"1\" cellpadding=\"3\" class=\"tablehead\"><tr class=\"colhead\"><th>DATE</th><th>OPP</th><th>RESULT</th><th
+        style=\"text-align:right !important;\" title=\"Goals\">G</th><th style=\"text-align:right
+        !important;\" title=\"Assists\">A</th><th style=\"text-align:right !important;\"
+        title=\"Points\">PTS</th><th style=\"text-align:right !important;\" title=\"Plus/Minus
+        Ratings\">+/-</th><th style=\"text-align:right !important;\" title=\"Penalty
+        Minutes\">PIM</th><th style=\"text-align:right !important;\" title=\"Shots
+        on Goal\">SOG</th><th style=\"text-align:right !important;\" title=\"Shooting
+        Percentage\">%</th><th style=\"text-align:right !important;\" title=\"Power-Play
+        Goals\">PPG</th><th style=\"text-align:right !important;\" title=\"Power-Play
+        Assists\">PPA</th><th style=\"text-align:right !important;\" title=\"Short
+        Goals\">SHG</th><th style=\"text-align:right !important;\" title=\"Short Assists\">SHA</th><th
+        style=\"text-align:right !important;\" title=\"Game Winning Goals\">GWG</th><th
+        style=\"text-align:right !important;\" title=\"Time on Ice\">TOI</th><th style=\"text-align:right
+        !important;\" title=\"Production\">PROD</th></tr><tr class=\"oddrow team-90-4\"><td>Wed
+        5/29</td><td><ul class=\"game-schedule\"><li class=\"game-location\">@ </li><li
+        class=\"team-logo-small logo-nhl-small nhl-small-4\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\">CHI</a></li></ul></td><td><span
+        class=\"redfont\">L</span> <a href=\"/nhl/boxscore?gameId=400465772\">1-2</a>
+        (OT)</td><td style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">2</td><td
+        style=\"text-align:right;\">0.0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">21:41</td><td style=\"text-align:right;\">0:00</td></tr><tr
+        class=\"evenrow team-90-4\"><td>Mon 5/27</td><td><ul class=\"game-schedule\"><li
+        class=\"game-location\">vs </li><li class=\"team-logo-small logo-nhl-small
+        nhl-small-4\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\">CHI</a></li></ul></td><td><span
+        class=\"redfont\">L</span> <a href=\"/nhl/boxscore?gameId=400465771\">3-4</a></td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">1</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">2</td><td style=\"text-align:right;\">6</td><td
+        style=\"text-align:right;\">0.0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">20:26</td><td style=\"text-align:right;\">20:26</td></tr><tr
+        class=\"oddrow team-90-4\"><td>Sat 5/25</td><td><ul class=\"game-schedule\"><li
+        class=\"game-location\">@ </li><li class=\"team-logo-small logo-nhl-small
+        nhl-small-4\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\">CHI</a></li></ul></td><td><span
+        class=\"redfont\">L</span> <a href=\"/nhl/boxscore?gameId=400465770\">1-4</a></td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">2</td><td
+        style=\"text-align:right;\">0.0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">20:40</td><td style=\"text-align:right;\">0:00</td></tr><tr
+        class=\"evenrow team-90-4\"><td>Thu 5/23</td><td><ul class=\"game-schedule\"><li
+        class=\"game-location\">vs </li><li class=\"team-logo-small logo-nhl-small
+        nhl-small-4\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\">CHI</a></li></ul></td><td><span
+        class=\"greenfont\">W</span> <a href=\"/nhl/boxscore?gameId=400465769\">2-0</a></td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0.0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">21:03</td><td style=\"text-align:right;\">0:00</td></tr><tr
+        class=\"oddrow team-90-4\"><td>Mon 5/20</td><td><ul class=\"game-schedule\"><li
+        class=\"game-location\">vs </li><li class=\"team-logo-small logo-nhl-small
+        nhl-small-4\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\">CHI</a></li></ul></td><td><span
+        class=\"greenfont\">W</span> <a href=\"/nhl/boxscore?gameId=400465768\">3-1</a></td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">3</td><td
+        style=\"text-align:right;\">33.3</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">21:14</td><td style=\"text-align:right;\">21:14</td></tr><tr
+        class=\"total\"><td colspan=\"3\">Last 5 Games</td><td style=\"text-align:right;\">1</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">2</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">2</td><td
+        style=\"text-align:right;\">13</td><td style=\"text-align:right;\">7.7</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">105:04</td><td
+        style=\"text-align:right;\">52:32</td></tr></table><p class=\"footer\"><a
+        href=\"/nhl/player/gamelog/_/id/1223/pavel-datsyuk\">Complete Game Log &#187;</a></p></div></div></div><div
+        class=\"span-4\"><span style=\"display:none;\" id=\"showproj\" value=\"true\"></span><div
+        class=\"mod-container mod-no-footer mod-fantasy\" id=\"fantasy-container\"
+        style=\"display:none;\"><div class=\"mod-header\"><h4>FANTASY HOCKEY</h4></div><div
+        class=\"mod-content\" id=\"fantasy-content\">{\"playerId\":372,\"percentChange\":0,\"averageDraftPosition\":\"Undrafted\",\"percentOwned\":100,\"playerRaterSEASON\":13,\"fullName\":\"Pavel
+        Datsyuk\",\"positionRank\":7}</div></div>\n\t\t\t\t<div class=\"mod-container
+        mod-tabs mod-tabs-header mod-no-footer mod-content-feed\">\n\t\t\t\t\t<div
+        id=\"feed-tabs\" class=\"mod-header\">\n\t\t\t\t\t\t<h4>PAVEL DATSYUK NEWS
+        FEED</h4>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li class=\"ui-tabs-selected\"><a
+        href=\"#default-tab\">ALL</a></li>\n<li><a href=\"http://espn.go.com/nhl/player/_/id/1223/view/video\">VIDEO</a></li>\n<li><a
+        href=\"http://espn.go.com/nhl/player/_/id/1223/view/audio\">AUDIO</a></li>\n<li><a
+        href=\"http://espn.go.com/nhl/player/_/id/1223/view/status alerts\">STATUS
+        ALERTS</a></li>\n\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\n\n<style type=\"text/css\">\n\t.sc-feed-callout{margin:1px
+        6px 0 6px; position:absolute; font-family:verdana; font-size:11px; right:0;}\n\t.sc-feed-callout>a{margin-top:2px;
+        line-height:20px; margin-right:4px;}\n\t.ie7 .sc-feed-callout>a {position:absolute;
+        right:84px; width:166px; margin-top:0;}\n\t.sc-feed-callout>a, .sc-feed-callout>a:visited
+        {color:#000 !important;}\n\t.sc-feed-callout>a.logo{display:block; width:84px;
+        height:21px; background: url(http://a.espncdn.com/prod/assets/sc-feed/html/assets/img/btn-scfeedbeta-clubhouse.png)
+        no-repeat; text-indent: -1000px; text-align: left; overflow: hidden; margin-top:-1px;
+        float:right;}\n\t.ie7 .sc-feed-callout>a.logo {right:0;}\n\t.sc-feed-callout
+        .sctext { float: left; margin-top: 0; }\n</style>\n\n<div class=\"sc-feed-callout\"
+        id=\"sc-feed-callout-clubhouse\">\n\t<a href=\"http://espn.go.com/espn/sportscenter/feed/\"
+        name=\"&amp;lpos=clubhousefeed&amp;lid=playercard-feedcallout\" class=\"sctext\">Your
+        sports as they happen.</a>\n\t<a href=\"http://espn.go.com/espn/sportscenter/feed/\"
+        class=\"logo\" name=\"&amp;lpos=clubhousefeed&amp;lid=playercard-feedcallout\">Try
+        SportsCenter Feed</a>\n</div>\n\n<script type=\"text/javascript\">\n\tjQuery('#sc-feed-callout-clubhouse
+        a').click(function (e) {e.preventDefault();var href = jQuery(this).attr('href');anTrackLink(this,
+        'espn', 'playercardfeed', 'playercard-feedcallout');window.open(href, 'scfeed',
+        'width=1024,height=768,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no,addressbar=no');});\n</script>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div
+        class=\"mod-content\">\n\t\t\t\t\t\t<div id=\"default-tab\">\n\t\t\t\t\t\t\t<ol>\n\t\t\t\t\t\t\t\t<li
+        id=\"9527880\" class=\"result\">\n<a href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9527880/2013-nhl-offseason-how-atlantic-division-teams-trending\"><img
+        class=\"floatleft\" height=\"75\" width=\"134\" src=\"http://a.espncdn.com/combiner/i?img=%2fphoto%2f2013%2f0614%2fbos_g_bergeron_kh_576.jpg&w=134&h=75\"/>\n</a>\n\n<h3><a
+        href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9527880/2013-nhl-offseason-how-atlantic-division-teams-trending\">How
+        Atlantic teams are trending</a> <img src=\"http://a.espncdn.com/i/in.gif\"
+        alt=\"Insider\"></h3>\n<p>Craig Custance examines each team in the Atlantic
+        Division as the NHL realigns. Can the Bruins maintain their momentum after
+        a tough Cup finals loss and several key departures? And will the Red Wings
+        rise with new addition Daniel Alfredsson?</p>\n<cite>about 12 days ago | Craig
+        Custance | ESPN.com</cite>\n</li>\n<li id=\"9450734\" class=\"result\">\n<a
+        href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9450734/2013-nhl-offseason-draft-tyler-seguin-trade-gm-jim-nill-applying-early-imprint-dallas-stars\"><img
+        class=\"floatleft\" height=\"75\" width=\"134\" src=\"http://a.espncdn.com/combiner/i?img=%2fphoto%2f2013%2f0614%2fbos_g_seguin88_cr_576.jpg&w=134&h=75\"/>\n</a>\n\n<h3><a
+        href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9450734/2013-nhl-offseason-draft-tyler-seguin-trade-gm-jim-nill-applying-early-imprint-dallas-stars\">Nill
+        putting early imprint on Stars </a> <img src=\"http://a.espncdn.com/i/in.gif\"
+        alt=\"Insider\"></h3>\n<p>By taking a chance on a Russian prospect with his
+        first draft pick and then trading for Tyler Seguin, Jim Nill is off to a fast
+        start as GM of the Dallas Stars.</p>\n<cite>about 39 days ago | Craig Custance
+        | ESPN.com</cite>\n</li>\n<li id=\"9410217\" class=\"result\">\n<a href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9410217/2013-nhl-offseason-why-2014-free-agents-signing-now\"><img
+        class=\"floatleft\" height=\"75\" width=\"134\" src=\"http://a.espncdn.com/combiner/i?img=%2fphoto%2f2013%2f0621%2finsider_split1x_576.jpg&w=134&h=75\"/>\n</a>\n\n<h3><a
+        href=\"http://insider.espn.go.com/nhl/blog/_/name/custance_craig/id/9410217/2013-nhl-offseason-why-2014-free-agents-signing-now\">Why
+        2014 free agents are signing now</a> <img src=\"http://a.espncdn.com/i/in.gif\"
+        alt=\"Insider\"></h3>\n<p>Recent extensions for star players have bucked the
+        usual offseason order of events for NHL GMs. Craig Custance looks into why
+        those deals are happening and why there will be more on the way soon.</p>\n<cite>about
+        53 days ago | Craig Custance  | ESPN.com</cite>\n</li>\n<li id=\"9399071\"
+        class=\"result\">\n<h3><a href=\"http://espn.go.com/nhl/story/_/id/9399071/pavel-datsyuk-detroit-red-wings-agree-3-year-extension\">Red
+        Wings reach 3-year deal with Datsyuk</a></h3>\n<p>Pavel Datsyuk and the Detroit
+        Red Wings have an agreement on a three-year contract.</p>\n<cite>about 55
+        days ago | ESPN.com news services</cite>\n</li>\n<li id=\"9330856\" class=\"result\">\n<h3><a
+        href=\"http://espn.go.com/nhl/story/_/id/9330856/pavel-datsyuk-detroit-red-wings-hopes-sign-new-deal\">Datsyuk
+        hopes to sign new deal with Wings</a></h3>\n<p>Pavel Datsyuk says he hopes
+        to sign a new deal with the Detroit Red Wings this summer.</p>\n<cite>about
+        73 days ago | Associated Press</cite>\n</li>\n<li id=\"9278435\" class=\"result\">\n<h3><a
+        href=\"http://espn.go.com/nhl/story/_/id/9278435/selke-finalists-jonathan-toews-patrice-bergeron-pavel-datsyuk\">Selke
+        finalists: Toews, Bergeron, Datsyuk</a></h3>\n<p>Jonathan Toews of the Chicago
+        Blackhawks, Patrice Bergeron of the Boston Bruins and Pavel Datsyuk of the
+        Detroit Red Wings are finalists for the Frank J. Selke Trophy as the NHL's
+        best defensive forward.</p>\n<cite>about 84 days ago | ESPN.com news services</cite>\n</li>\n\n\t\t\t\t\t\t\t</ol>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        id=\"clubhouse-video-player\" class=\"videoplayer1 videoplayer-redesign_clubhouse10\">\n\t\t\t\t\t\t\t<!--
+        placeholder -->\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<script>\n\t\t\t\t\tjQuery.getScriptCache('http://a.espncdn.com/combiner/c/?js=espn.newsfeed.r5.js',
+        function() { //r3\n\t\t\t\t\t\tespn.core.init.newsfeed();\n\t\t\t\t\t});\n\t\t\t\t</script>\n\t\t\t</div><div
+        class=\"span-2 last\"><div class=\"mod-container mod-no-header-footer mod-myespn\"
+        id=\"myespn-personalization\" style=\"display:none;\"><div class=\"mod-content\"><div
+        class=\"gradient-container\"><div class=\"inline-header\"><h4>MyESPN</h4><ul
+        class=\"links\" style=\"padding-top:5px;\"><li><a href=\"http://espn.go.com/personalization/index\">Customize
+        &#187;</a></li></ul></div><div class=\"personalization-teams\"></div></div></div></div>\n<script>if(\"undefined\"!=typeof
+        ad_kvps&&\"undefined\"!=typeof ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof
+        ad_ord){if(\"undefined\"==typeof ad_site||\"undefined\"==typeof ad_zone)var
+        ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayer\";var pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var
+        this_ad_u=ad_u.replace(\";\",pipe+\"sz=300x600,300x250,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=InContent;\"+this_ad_u+\"dcopt=ist;sz=300x600,300x250,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"InContent\" data-cb-dfp-id=\"'+ad_kvps+'sz=300x600,300x250,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=espn;pl=1223;sz=300x600,300x250,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayer;pgtyp=nhlplayer;sp=espn;pl=1223;sz=300x600,300x250,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n<!-- begin sponsored links -->\n<div
+        id=\"sponsored\" class=\"mod-container mod-no-footer\">\n<!-- begin sp links
+        -->\n<div style=\"margin: 10px 0 0 0;\">\n<!-- sponsored links: nhl:story-right:304w300h--><div
+        style=\"margin:0px 0px 5px 0px;\"><script type=\"text/javascript\">adsonar_placementId=1507978;adsonar_pid=2187776;adsonar_ps=-1;adsonar_zw=304;adsonar_zh=300;adsonar_jv='ads.espn.adsonar.com';</script><script
+        language=\"JavaScript\" src=\"http://js.adsonar.com/js/adsonar.js\"></script></div></div>\n<!--
+        end sp links -->\n</div>\n<!-- end sponsored links -->\n</div><div class=\"clear
+        tablesm\">Data provided by Elias Sports Bureau</div></div></div>\n<div id=\"nav-wrapper\"
+        class=\"container\">\n<div id=\"nav-wrapper-container\">\n<div id=\"nav-main\">\n<!--
+        begin site nav -->\n<ul class=\"top\">\n<!-- begin site nav -->\n<p><!-- begin
+        site nav --></p>\n<ul class=\"top\" id=\"nav-main-list\"><!-- start: Menuitem
+        :: MyTAB -->\n<li class=\"last myespn\" id=\"menu-myespn\"><a class=\"myespn\"
+        ref=\"#\">MyESPN</a></li>\n<!-- start: Menuitem :: NFL -->\n<li class=\"sport-menu
+        default t-nfl\" data-sportid=\"28\" id=\"menu-nfl\"><a href=\"http://espn.go.com/nfl/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nfl\">NFL</a></li>\n<!-- start:
+        Menuitem :: MLB -->\n<li class=\"sport-menu default t-mlb\" data-sportid=\"10\"
+        id=\"menu-mlb\"><a href=\"http://espn.go.com/mlb/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_mlb\">MLB</a></li>\n<!--
+        start: Menuitem :: NBA -->\n<li class=\"sport-menu default t-nba\" data-sportid=\"46\"
+        id=\"menu-nba\"><a href=\"http://espn.go.com/nba/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nba\">NBA</a></li>\n<!--
+        start: Menuitem :: NHL -->\n<li class=\"sport-menu default t-nhl selected\"
+        data-sportid=\"90\" id=\"menu-nhl\"><a href=\"http://espn.go.com/nhl/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nhl\">NHL</a></li>\n<!--
+        start: Menuitem :: NCAA FB -->\n<li class=\"sport-menu default t-ncf\" data-sportid=\"23\"
+        id=\"menu-ncf\"><a href=\"http://espn.go.com/college-football/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_ncf\">NCAAF</a></li>\n<!--
+        start: Menuitem :: NCAA BB -->\n<li class=\"sport-menu default t-ncb\" data-sportid=\"41\"
+        id=\"menu-ncb\"><a href=\"http://espn.go.com/mens-college-basketball/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_ncb\">NCAAM</a></li>\n<!--
+        start: Menuitem :: NASCAR -->\n<li class=\"sport-menu default t-nascar\" data-sportid=\"2020\"
+        id=\"menu-nascar\"><a href=\"http://espn.go.com/racing/nascar/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nascar\">NASCAR</a></li>\n<!--
+        start: Menuitem :: SOCCER -->\n<li class=\"sport-menu default t-soccer\" data-sportid=\"600\"
+        id=\"menu-soccer\"><a href=\"http://espnfc.com/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_soccer\">SOCCER</a></li>\n<!--
+        start: Menuitem :: GOLF -->\n<li class=\"sport-menu t-golf\" data-sportid=\"1106\"
+        id=\"menu-golf\" style=\"display: none;\"><a href=\"http://espn.go.com/golf/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_golfl\">GOLF</a></li>\n<!--
+        start: Menuitem :: TENNIS -->\n<li class=\"sport-menu t-tennis\" data-sportid=\"850\"
+        id=\"menu-tennis\" style=\"display: none;\"><a href=\"http://espn.go.com/tennis/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_tennis\">TENNIS</a></li>\n<!--
+        start: Menuitem :: BOXING-->\n<li class=\"sport-menu t-boxing\" data-sportid=\"1000\"
+        id=\"menu-boxing\" style=\"display: none;\"><a href=\"http://espn.go.com/boxing/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_boxing\">BOXING</a></li>\n<!--
+        start: Menuitem :: MMA -->\n<li class=\"sport-menu t-mma\" data-sportid=\"3301\"
+        id=\"menu-mma\" style=\"display: none;\"><a href=\"http://espn.go.com/mma/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_mma\">MMA</a></li>\n<!-- start:
+        Menuitem :: ALL SPORTS -->\n<li class=\"nav-allsports t-allsports\" id=\"menu-allsports\"><a
+        href=\"http://espn.go.com/sports/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_allsports\">MORE
+        SPORTS</a></li>\n<!-- start: Menuitem :: INSIDER -->\n<li class=\"sport-menu
+        t-insider\" id=\"menu-insider\" style=\"display: none;\"><a href=\"http://insider.espn.go.com/insider/index\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_insider\">INSIDER</a></li>\n<!--
+        start: Menuitem :: SPORTSNATION -->\n<li class=\"sport-menu t-sportsnation\"
+        id=\"menu-sportsnation\" style=\"display: none;\"><a href=\"http://espn.go.com/sportsnation/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_sportsnation\">SN</a></li>\n<!--
+        start: Menuitem :: RADIO & MORE -->\n<li class=\"right-menu two-line last
+        t-radio\" id=\"menu-radio\"><a href=\"http://espn.go.com/espnradio/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_radioandmore\">RADIO<span>&amp;
+        MORE</span></a></li>\n<!-- start: Menuitem :: espnW & PLAYBOOK -->\n<li class=\"right-menu
+        two-line t-page2\" id=\"menu-page2\"><a href=\"http://espn.go.com/espnw/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_espnwandxgames\" target=\"_blank\">espnW<span>&amp;
+        X GAMES</span></a></li>\n<!-- start: Menuitem :: FANTASY & GAMES -->\n<li
+        class=\"right-menu two-line t-fantasy\" id=\"menu-fantasy\"><a href=\"http://games.espn.go.com/frontpage\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_fantasy\">FANTASY<span>&amp;
+        GAMES</span></a></li>\n<!-- start: Menuitem :: WATCH -->\n<li class=\"right-menu
+        t-watch\" id=\"menu-watch\"><a href=\"http://espn.go.com/video/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_watch\">WATCH</a></li>\n</ul>\n<!--
+        end site nav -->\n<!-- end site nav -->\n</ul>\n<!-- end site nav -->\n</div>\n<div
+        class=\"nav-main-secondary\">\n<!--/nhl/player--><ul>\n<li><a href=\"http://espn.go.com/nhl/\"
+        name=\"&lpos=subnav&lid=subnav_NHL_NHL+Home\">NHL Home</a></li>\n<li><a href=\"http://sports.espn.go.com/nhl/playoffs\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Playoffs\">Playoffs</a></li>\n<li><a href=\"http://espn.go.com/nhl/freeagents\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Signings\">Signings</a></li>\n<li><a href=\"http://espn.go.com/nhl/story/_/page/13deadlinetradetracker/2013-nhl-trade-tracker\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Trade\">Trades</a></li>\n<!--<li><a href=\"http://scores.espn.go.com/nhl/scoreboard\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Scores\">Scores</a></li>\n--><li><a href=\"http://espn.go.com/nhl/schedule\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Schedule\">Schedule</a></li>\n<li><a href=\"http://espn.go.com/nhl/standings/_/group/2\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Standings\">Standings</a></li>\n<li><a
+        href=\"http://espn.go.com/nhl/statistics\" name=\"&lpos=subnav&lid=subnav_NHL_Statistics\">Stats</a></li>\n<li><a
+        href=\"http://insider.espn.go.com/nhl/features/rumors\" name=\"&lpos=subnav&lid=subnav_NHL+Rumor+Central\">Rumors</a></li>\n<li
+        class=\"active\"><a href=\"http://espn.go.com/nhl/players\" name=\"&lpos=subnav&lid=subnav_NHL_Players\">Players</a></li>\n<li><a
+        href=\"http://espn.go.com/nhl/powerranking\" name=\"&lpos=subnav&lid=subnav_NHL+Power+Rankings\">Rankings</a></li>\n<li
+        class=\"expandable\"><a href=\"http://espn.go.com/nhl/teams\" name=\"&lpos=subnav&lid=subnav_NHL_Teams\"><span>Teams</span></a><div><dl><dt
+        class=\"first\">Metropolitan</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/car/carolina-hurricanes\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_car\">Carolina Hurricanes</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/cbj/columbus-blue-jackets\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_cls\">Columbus
+        B. Jackets</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/nj/new-jersey-devils\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_njd\">New Jersey Devils</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/nyi/new-york-islanders\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_nyi\">New
+        York Islanders</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/nyr/new-york-rangers\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_nyr\">New York Rangers</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/phi/philadelphia-flyers\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_phi\">Philadelphia
+        Flyers</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/pit/pittsburgh-penguins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_pit\">Pittsburgh Penguins</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/wsh/washington-capitals\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_was\">Washington
+        Capitals</a></dd><dt class=\"first\">Atlantic</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/bos/boston-bruins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_bos\">Boston Bruins</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/buf/buffalo-sabres\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_buf\">Buffalo
+        Sabres</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_det\">Detroit Red Wings</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/fla/florida-panthers\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_fla\">Florida
+        Panthers</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/mtl/montreal-canadiens\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_mon\">Montreal Canadiens</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/ott/ottawa-senators\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_ott\">Ottawa
+        Senators</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/tb/tampa-bay-lightning\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_tam\">Tampa Bay Lightning</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/tor/toronto-maple-leafs\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_tor\">Toronto
+        Maple Leafs</a></dd></dl><dl class=\"last\"><dt class=\"first\">Central</dt><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_chi\">Chicago
+        Blackhawks</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/col/colorado-avalanche\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_col\">Colorado Avalanche</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/dal/dallas-stars\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_dal\">Dallas
+        Stars</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/min/minnesota-wild\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_min\">Minnesota Wild</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/nsh/nashville-predators\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_nsh\">Nashville
+        Predators</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/stl/st-louis-blues\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_stl\">St. Louis Blues</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/wpg/winnipeg-jets \"name=\"&lpos=subnav&lid=subnav_NHL_Teams_win\">Winnipeg
+        Jets</a></dd><dt class=\"first\">Pacific</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/ana/anaheim-ducks\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_ana\">Anaheim Ducks</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/cgy/calgary-flames\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_cgy\">Calgary
+        Flames</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/edm/edmonton-oilers\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_edm\">Edmonton Oilers</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/la/los-angeles-kings\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_los\">Los
+        Angeles Kings</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/phx/phoenix-coyotes\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_pho\">Phoenix Coyotes</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/sj/san-jose-sharks\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_san\">San
+        Jose Sharks</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/van/vancouver-canucks\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_van\">Vancouver Canucks</a></dd></dl></div></li><li><a
+        href=\"http://games.espn.go.com/frontpage/hockey\" name=\"&lpos=subnav&lid=subnav_NHL+Fantasy\">Fantasy</a></li>\n<!--<li><a
+        href=\"http://espn.go.com/nhl/lines\" name=\"&lpos=subnav&lid=subnav_NHL+Odds\">Odds</a></li>\n--><li
+        class=\"expandable\"><a href=\"javascript:void(0);\"><span>Resources</span></a><div><dl><dd><a
+        href=\"http://espn.go.com/nhl/freeagents\" name=\"&lpos=subnav&lid=subnav_NHL+Tracker\">Free
+        Agent Tracker</a></dd><dd><a href=\"http://espn.go.com/nhl/story/_/page/13deadlinetradetracker/2013-nhl-trade-tracker\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Trade\">Trade Tracker</a></dd><dd><a href=\"http://sports.espn.go.com/nhl/playoffs/2011/news/story?page=cupchamps11\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Stanley_Cup_Winners\">Stanley Cup winners</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/attendance\" name=\"&lpos=subnav&lid=subnav_NHL_Attendance\">Attendance</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/glance\" name=\"&lpos=subnav&lid=subnav_NHL_Glance\">Daily
+        Glance</a></dd><dd><a href=\"http://espn.go.com/nhl/stats/dailyleaders\" name=\"&lpos=subnav&lid=subnav_NHL_Leaders\">Daily
+        Leaders</a></dd><dd><a href=\"http://espn.go.com/nhl/history/leaders\" name=\"&lpos=subnav&lid=subnav_NHL_History\">History</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/injuries\" name=\"&lpos=subnav&lid=subnav_NHL_Injuries\">Injuries</a></dd><dd><a
+        href=\"http://insider.espn.go.com/nhl/pickcenter\" name=\"&lpos=subnav&lid=subnav_NHL_Pick_Center\">Pick
+        Center <img src=\"http://assets.espn.go.com/i/design07/mast/tinyin.gif\" alt=\"Insider\"></a></dd><dd><a
+        href=\"http://espn.go.com/nhl/playoffs/matchups\" name=\"&lpos=subnav&lid=subnav_NHL_Matchups\">Playoffs
+        Matchups</a></dd><dd><a href=\"http://espn.go.com/nhl/stats/rpi\" name=\"&lpos=subnav&lid=subnav_NHL_RPI\">Relative
+        Power Index</a></dd></dl><dl class=\"last\">                <dd><a href=\"http://espn.go.com/nhl/story/_/page/calendar2013/2012-13-nhl-calendar\"
+        name=\"&lpos=subnav&lid=subnav_Dates\">Key Dates</a></dd>                <dd><a
+        href=\"http://espn.go.com/nhl/transactions\" name=\"&lpos=subnav&lid=subnav_Transactions\">Transactions</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/preview2012/\" name=\"&lpos=subnav&lid=subnav_NHL_Preview\">2013
+        Season Preview</a></dd><dd><a href=\"http://espn.go.com/nhl/topics/_/page/nhl-draft\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Draft\">2013 NHL Draft</a></dd><dd><a href=\"http://espn.go.com/nhl/playoffs/2013/matchup/_/teams/blackhawks-bruins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Playoffs\">2013 NHL Playoffs</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/allstargame\" name=\"&lpos=subnav&lid=subnav_ASG\">2012
+        All-Star Game</a></dd><dd><a href=\"http://espn.go.com/nhl/winterclassic12/\"
+        name=\"&lpos=subnav&lid=subnav_NHL_2012_Winter_Classic\">2012 Winter Classic</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/playoffs/2012/matchup/_/teams/devils-kings\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Playoffs\">2012 NHL Playoffs</a></dd>                <dd><a
+        href=\"http://espn.go.com/nhl/topics/_/page/hockey-hall-fame\">Hockey Hall
+        of Fame</a></dd><dd><a href=\"http://espn.go.com/nhl/trophytracker\" name=\"&lpos=subnav&lid=subnav_Trophy+Tracker\">Trophy
+        Tracker</a></dd><dd><a href=\"http://espn.go.com/nhl/news/story?page=awardshistory\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Awards\">Awards History</a></dd></dl></div></li><li><a
+        href=\"http://www.stubhub.com/nhl-tickets/\" target=\"_blank\" onclick=\"this.href=this.href+'?gcid=C12289x522&gtkw=NHL+Sub+Nav'\"
+        class=\"external\" name=\"&lpos=subnav&lid=subnav_NHL+Tickets\">Tickets</a></li>\n\n</ul>\n</div>\n</div>\n</div>\n</div>\n<!--
+        end content -->\n</div>\n<!-- end subheader -->\n\n<script>\nespn.core.init.nav();\nespn.insider.checkUserForPromo();\nespn.insider.insiderRedirect();\n</script>\n<!--
+        begin footer -->\n<div id=\"footer\" class=\"container\">\n<script type=\"text/javascript\">\n//<![CDATA[\nvar
+        link = window.location;\nvar bugText = '<a href=\"#\" onclick=\"window.open(\\'http://dynamic.espn.go.com/espn/bugs?url='
+        + escape(link) + '\\', \\'Bugs\\',\\'noresizable,noscrollbars,height=400,width=400\\');\">Report
+        a Bug</a> | ';\n//]]>\n</script>\n<span style=\"font-weight:bold;\">ESPN.com:</span>
+        <a href=\"http://sports.espn.go.com/espn/news/story?page=help/index\">Help</a>
+        | <a href=\"http://espnmediazone.com/us/\" rel=\"nofollow\">Press</a> | <a
+        href=\"http://www.espncms.com/Advertise-on-ESPN.aspx\" rel=\"nofollow\">Advertise
+        on ESPN.com</a> | <a href=\"http://www.espncms.com\" rel=\"nofollow\">Sales
+        Media Kit</a> | <a href=\"http://preferences.truste.com/2.0/?type=espn&affiliateId=148\"
+        onclick=\"window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0');
+        return false\">Interest-Based Ads</a> | <script type=\"text/javascript\">document.write(bugText);</script><a
+        href=\"http://espn.go.com/espn/corrections\">Corrections</a> | <a href=\"http://sports.espn.go.com/espn/news/story?page=contact/index\">Contact
+        Us</a> | <a href=\"http://espn.go.com/espn/sitemap\">Site Map</a> | <a href=\"http://espncareers.com\">Jobs
+        at ESPN</a> | <!--a href=\"http://corporate.disney.go.com/corporate/sourcing.html\"
+        rel=\"nofollow\"><span style=\"font-weight:bold;\">Supplier Information</span></a--><a
+        href=\"http://go.com\">Go.com</a><br/>&copy; 2013 ESPN Internet Ventures.
+        <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\"><b>Updated Terms
+        of Use</b></a>, <a href=\"http://disney.go.com/corporate/legal/terms.html\"
+        rel=\"nofollow\">Terms of Use</a>, and <a href=\"http://disney.go.com/corporate/privacy/pp_espn.html\"
+        rel=\"nofollow\">Privacy Policy and Safety Information/Your California Privacy
+        Rights</a> are applicable to you.  All rights reserved.\n\n<!--\n<a href=\"http://www.espnshop.com/\"
+        onClick=\"location.href('http://log.go.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return
+        false\">Shop</a>\n-->\n</div>\n<!-- end footer -->\n<!--[if lte IE 8]></div><![endif]-->\n</div>\n<!--
+        end bg-elements -->\n<script type=\"text/javascript\">jQuery(document).ready(function()
+        {var ua = navigator.userAgent;if (ua && ua.indexOf(\"Trident/4.0\") >= 0)
+        { jQuery(\".webicon\").show(); }if (ua && ua.indexOf(\"Trident/4.0\") >= 0)
+        { jQuery(\".webiconmod\").show(); }});</script>\n\n<!-- SiteCatalyst code
+        version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com
+        -->\n<script type=\"text/javascript\">\n\tvar undef = 'undefined'\n\t,s_account=\"wdgespcom\"\n\t,omniPageName
+        = \"espn:nhl:profile\"\t\n\t\n\t,insiderStatus = \"\"\n\t,anGen = \"\"\n\t,anYear
+        = \"\"\n\t,anDateString = \"\"\n\t,anLoginStatus = \"\"\n\t,callOmniture =
+        function(){\n\t\t/*-- core story s_omni properties --*/\n\t\tif (typeof anCV
+        != \"undefined\"){anParseLoginBarInfo(anCV);}\n\t\ts_omni.pageName=\"nhl:profile\";\n\t\ts_omni.server
+        = window.location.host; // Server from the Host\n\t\ts_omni.channel = \"nhl\";\n\t\ts_omni.prop1
+        = \"espn\";\n\t\ts_omni.prop4 = \"playerprofile\";\n\t\ts_omni.prop5 = \"nhl\";\n\t\ts_omni.prop11
+        = (insiderStatus !== null) ? insiderStatus + \":premium-no\" : \"premium-no\";\n\t\ts_omni.prop13
+        = \"automated-general\";\n\t\ts_omni.prop17 = \"en\";\n\t\ts_omni.prop21 =
+        anDateString;\n\t\ts_omni.prop22 = anGen;\n\t\ts_omni.prop25 = \"hockey\";\n\t\ts_omni.prop26
+        = \"nhl\";\n\t\ts_omni.prop29 = anLoginStatus;\n\t\ts_omni.prop30 = \"n\";\n\t\ts_omni.prop32
+        = \"nhl:playerid=1223-pavel+datsyuk\";\n\t\ts_omni.hier1 = \"nhl:profile\";\n\t\ts_omni.eVar7
+        = anYear + \":\" + anGen + \":\" + anLoginStatus + \":\" + s_omni.prop11 +
+        \":\";\n\t\ts_omni.eVar9 = \"en\";\n\t\ts_omni.eVar13 = \"nhl:profile\";\n\t\ts_omni.eVar19
+        = \"hockey\";\n\t\ts_omni.eVar21 = \"nhl\";\n\t\t\n\t\tif (s_omni.prop11==\"anonymous:premium-yes\"
+        || s_omni.prop11==\"insider-no:premium-yes\" && typeof s_omni.prop4!=\"undefined\"
+        &&\n\t\t\t(s_omni.prop4==\"story\" || s_omni.prop4==\"blog\")) {\n\t\t\tif
+        (typeof s_omni.events != \"undefined\" && s_omni.events!=\"\") {\n\t\t\t\ts_omni.events
+        = s_omni.events+\",event8\" }\n\t\t\telse { s_omni.events=\"event8\" }\n\t\t}\n\t\tanDebugCase
+        = \"ver_15Feb11_0_\";\n\t\t/************* DO NOT ALTER ANYTHING BELOW THIS
+        LINE ! **************/\n\t\t\n\t\tvar s_code = s_omni.t();\n\t\tif(s_code)
+        {\n\t\t\tvar sci = new Image(1,1);\n\t\t\tsci.onload = function() {console.log(\"loaded
+        no append\")};\n\t\t\tsci.src = s_code;\n\t\t}\n\t\t\n\t};\n\t\n\n\n\tif (typeof(s_omni)
+        === 'undefined') {\n\t\tjQuery(function($) {\n\t\t\t// we want to load the
+        analytics files from the cache if possible - so, let's use full $.ajax() calls\n\t\t\t$.ajax({\n\t\t\t\ttype:'GET',\n\t\t\t\turl:
+        'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js',\n\t\t\t\tdataType:
+        'script',\n\t\t\t\tcache: true,\n\t\t\t\tsuccess: function() {\n\t\t\t\t\tvar
+        lgSrc;\n\t\t\t\t\tif(typeof anCV !== undef && anCV === '' && document.getElementById('form-memberarea')
+        != null) {\n\t\t\t\t\t\tlgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently';\n\t\t\t\t\t\t$.getScript(lgSrc);
+        // we don't want this to be cached - so we'll use the $.getScript() method\n\t\t\t\t\t}
+        else {\n\t\t\t\t\t\tcallOmniture();\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t}\n\n\n</script>\n<!--
+        End SiteCatalyst code version: H.21. -->\n\t\t<script>\n\t\tvar _sf_async_config={\n\t\t\t\"uid\":22222,\n\t\t\t\"domain\":\"espn.go.com\",\n\t\t\t\"pingServer\":\"pespn.chartbeat.net\",\n\t\t\t\"useCanonical\":true,\n\t\t\t\"sections\":\"nhl\",\n\t\t\t\"authors\":\"playerprofile\"\n\t\t};\n\t\tif
+        (typeof(ad_site) !== 'undefined') { _sf_async_config.zone = ad_site; }\n\t\t(function(){function
+        a(){window._sf_endpt=(new Date()).getTime();var c=document.createElement(\"script\");c.setAttribute(\"language\",\"javascript\");c.setAttribute(\"type\",\"text/javascript\");c.setAttribute(\"src\",((\"https:\"==document.location.protocol)?\"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\":\"http://static.chartbeat.com/\")+\"js/chartbeat_pub.js\");document.body.appendChild(c)}var
+        b=window.onload;window.onload=(typeof window.onload!=\"function\")?a:function(){b();a()}})();\n\t\t</script>\n\t\t<script>\njQuery.getScriptCache('http://assets.espn.go.com/prod/scripts/foresee/v7/foresee-trigger.js');\n</script>\n<!--
+        dynamic logic: safecount -->\n<script src=\"http://content.dl-rms.com/rms/mother/508/nodetag.js\"></script>\n\n<script
+        type=\"text/javascript\" charset=\"utf-8\">buildOutHeadlinesForPinnedSite();</script>\n<script
+        type=\"text/javascript\">\n   var isInIFrame = (window.location != window.parent.location)
+        ? true : false;\n   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(\".go.com\")==-1){
+        top.location.href=self.location.href; } } }\n</script>\n\n<script type='text/javascript'>\n
+        \ //<![CDATA[\n    (function(){\n    window.gravityInsightsParams = {\n      'type':
+        'content',\n      'action': '',\n      'site_guid': '9a41401e9b7c945344e001ee7f23031e'\n
+        \   };\n    var b,c;b=\"https:\"===document.location.protocol?\"https://b-ssl.grvcdn.com/moth-min.js\":\"http://b.grvcdn.com/moth-min.js\";window.grvMakeScript=function(d){var
+        a;a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=!0;a.src=d;return
+        a};c=document.getElementsByTagName(\"script\")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();\n
+        \ //]]>\n</script></body>\n</html>"
+    http_version: 
+  recorded_at: Tue, 13 Aug 2013 16:20:53 GMT
+- request:
+    method: get
+    uri: http://espn.go.com/nhl/player/stats/_/id/1223
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Content-Type:
+      - text/html;charset=iso-8859-1
+      Cache-Control:
+      - max-age=15
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 13 Aug 2013 16:20:55 GMT
+      Connection:
+      - keep-alive
+      P3p:
+      - CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo
+        BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
+      Set-Cookie:
+      - SWID=F8180DB3-FC75-404B-905D-8976D61C6F2A; path=/; expires=Tue, 13-Aug-2033
+        16:20:55 GMT; domain=go.com;
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<meta
+        charset=\"iso-8859-1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n<script>var
+        a=navigator.userAgent,b=window.location,c=document.cookie,d=a.match(/iPad/i)||a.match(/Android/i)&&!a.match(/Mobile/i)||a.match(/RIM
+        Tablet/i),e=a.match(/Mobile/i)||a.match(/Mini/i),f=b.href.match(/src=mobile/i),g=-1<c.indexOf(\"iphone_redirect=false\"),h=-1<c.indexOf(\"iphone_redirect=true\");if(d){if(document.documentElement.className+=\"
+        tablet \",(!a.match(/iPad/i)||h)&&!g)b.href=\"http://m.espn.go.com/nhl/playercard?playerId=1223&src=desktop\"}else
+        e&&(!g&&!f)&&(b.href=\"http://m.espn.go.com/nhl/playercard?playerId=1223&src=desktop\");</script>\n<title>Pavel
+        Datsyuk Stats - Detroit Red Wings - ESPN</title>\n<meta name=\"slice\" scheme=\"IE\"
+        content=\"off\" />\n<meta name=\"google-site-verification\" content=\"xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA\"
+        />\n<meta name=\"msvalidate.01\" content=\"B1FEB7C682C46C8FCDA3130F3D18AC28\"
+        />\n<meta name=\"googlebot\" content=\"noodp\" />\n<meta name=\"robots\" content=\"index,
+        follow\" />\n<meta name=\"description\" content=\"Get the latest updated stats
+        for Detroit Red Wings center Pavel Datsyuk on ESPN.com\" />\n<meta name=\"keywords\"
+        content=\"pavel datsyuk, pavel datsyuk stats, pavel datsyuk statistics, pavel
+        datsyuk career stats, pavel datsyuk career statistics\" />\n<meta property=\"og:title\"
+        content=\"Pavel Datsyuk\" />\n<meta property=\"og:type\" content=\"athlete\"
+        />\n<meta property=\"og:url\" content=\"http://espn.go.com/nhl/player/stats/_/id/1223/pavel-datsyuk\"
+        />\n<meta property=\"og:description\" content=\"Get the latest updated stats
+        for Detroit Red Wings center Pavel Datsyuk on ESPN.com\" />\n<meta property=\"og:image\"
+        content=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&h=90\"
+        />\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:image\"
+        content=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&h=90\">\n<meta
+        name=\"twitter:title\" content=\"Pavel Datsyuk\">\n<meta name=\"twitter:description\"
+        content=\"Get the latest updated stats for Detroit Red Wings center Pavel
+        Datsyuk on ESPN.com\">\n<meta property=\"og:site_name\" content=\"ESPN.com\">\n<meta
+        property=\"fb:app_id\" content=\"116656161708917\">\n<link rel=\"canonical\"
+        href=\"http://espn.go.com/nhl/player/stats/_/id/1223/pavel-datsyuk\" />\n\n\t\t<script>var
+        _sf_startpt=(new Date()).getTime();</script>\n<link rel=\"search\" type=\"application/opensearchdescription+xml\"
+        href=\"http://a.espncdn.com/search/opensearch.xml\" title=\"ESPN Search\"
+        />\n<link rel=\"stylesheet\" href=\"http://a.espncdn.com/combiner/c/201302251456?css=global_reset.r1.css,base.r236.css,modules.r455.css,global_header.r42.css,modules/global_nav.r53.css,modules/insider_enhanced.r1.css,modules/mem/mem.r9.css,modules/mem/mem_espn360.r6.css,modules/mem/skirmish.r6.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/201303290924?css=sprites/teamlogos.r18.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509325?css=modules/master_tables_10.r3.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509325?css=modules/tabs-page-nav.3.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/combiner/c/20120509326?css=pagetype/tier3.r10.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/prod/styles/tier3/tier3_nhl.css\" type=\"text/css\"
+        media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\" href=\"http://a.espncdn.com/prod/styles/playercard_10.css\"
+        type=\"text/css\" media=\"screen\" charset=\"utf-8\" />\n<link rel=\"stylesheet\"
+        href=\"http://a.espncdn.com/prod/styles/playercard_nhl_10.css\" type=\"text/css\"
+        media=\"screen\" charset=\"utf-8\" />\n<script src=\"http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/json2.r3.js,plugins/teacrypt.js,plugins/jquery.metadata.js,plugins/jquery.bgiframe.r3.js,plugins/jquery.easing.1.3.js,plugins/jquery.hoverIntent.js,plugins/jquery.jcarousel.js,plugins/jquery.tinysort.r4.js,plugins/jquery.pubsub.r5.js,ui/1.8.16/jquery.ui.core.js,ui/1.8.16/jquery.ui.widget.js,ui/1.8.16/jquery.ui.tabs.js,ui/1.8.16/jquery.ui.accordion.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,swfobject/2.2/swfobject.js,flashObjWrapper.r7.js,plugins/jquery.colorbox.1.3.14.js,plugins/jquery.ba-postmessage.js,espn.core.duo.r55.js,espn.mem.r37b.js,stub.search.r9.js,espn.nav.mega.r35.js,espn.storage.r6.js,espn.p13n.r16.js,espn.video.r81.js,registration/staticLogin.r11.js,espn.universal.overlay.r16.js,insider/espn.insider.201212131.js,espn.espn360.stub.r9.js,espn.myHeadlines.stub.r13.js,espn.myfaves.stub.r3.js,tsscoreboard.20090612.js,/foresee/v7/foresee-alive.js,ie9pinning.r3.js,espn.f8.r11.js,espn.socialmediamod.r6.js\"></script>\n<script>espn.core.navVersion
+        = 'a';</script>\n<script type=\"text/javascript\" src=\"http://a.espncdn.com/prod/scripts/mbox.20.r2.js\"></script>\n<script>var
+        ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayerstats\",ad_kvps=\"pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;\",ad_swid=\"\",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg=\"\",ad_mnr=-1<document.cookie.indexOf(\"grif=1\")?\"t\":\"f\",ad_ref=\"other\",ref=document.referrer,refsMap={\"facebook.com\":\"facebook\",\"twitter.com|t.co\":\"twitter\",\"plus.url.google.com|plus.google.com\":\"googleplus\",\"google.com\":\"google\",\"bing.com\":\"bing\",\"yahoo.com\":\"yahoo\",\"espn.go.com\":\"espn\"},refKey;for(refKey
+        in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);\nad_kvps=ad_kvps+\"ref=\"+ad_ref+\";mnr=\"+ad_mnr+\";\";ad_swid=jQuery.cookie(\"SWID\");\"function\"===typeof
+        espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&\"\"!=ad_seg&&(ad_kvps+=ad_seg));var
+        ad_u=\"u=pgtyp=nhlplayerstats|sp=nhl|tm=det|pl=1223|ref=\"+ad_ref+\"|mnr=\"+ad_mnr,ad_seg_u=ad_seg;null!=ad_swid&&\"\"!=ad_swid&&(54<ad_swid.length&&(ad_swid=ad_swid.substring(0,54)),ad_newu=\"u=swid=\"+ad_swid+\"|\",ad_u=ad_u.replace(\"u=\",ad_newu));\nif(null!=ad_seg_u&&\"\"!=ad_seg_u){for(;-1!=ad_seg_u.indexOf(\";\");)ad_seg_u=ad_seg_u.replace(\";\",\"|\");if
+        (ad_seg_u[ad_seg_u.length-1] !== \"|\") {ad_seg_u += \"|\";}\tad_u=ad_u+\"|\"+ad_seg_u}ad_u+=\";\";255<ad_u.length&&(ad_u=ad_u.substring(0,254));if
+        (ad_u[ad_u.length-1] !== \";\"){ad_u += \";\";}</script>\n</head>\n<body class=\"nhl
+        {sportId:90, teamId:5} tier3 player-card teamId-5\" >\n<div class=\"mboxDefault\"><link
+        rel=\"stylesheet\" charset=\"utf-8\" media=\"screen\" href=\"http://a.espncdn.com/prod/styles/modules/hideEditorialPicksMod.css\"
+        type=\"text/css\" /></div><script>mboxCreate('ESPN_global');</script><!--[if
+        IE 6]><div class=\"ie ie6\"><![endif]-->\n<!--[if IE 7]><div class=\"ie ie7\"><![endif]-->\n<!--[if
+        IE 8]><div class=\"ie ie8\"><![endif]-->\n<!-- begin bg-elements -->\n<div
+        class=\"bg-elements\">\n<!-- begin header -->\n<div id=\"header\" class=\"container\">\n<!--
+        begin top-bar -->\n<div class=\"top-bar\">\n<!-- begin uni login -->\n<script
+        type=\"text/javascript\">\nvar returnURL = document.location.href;\nvar anCV
+        = \"\";\nvar myEspnText = {'welcometext':'Welcome','register':'Register','signin':'Sign
+        In','signout':'Sign Out','heliumdown':'Login Temporarily Unavailable','connectedfacebook':'Connected
+        to Facebook','connectfacebook':'Connect with Facebook','activateinsider':'Activate
+        Insider'};\n</script>\n<form id=\"form-memberarea\">\n<input type=\"hidden\"
+        name=\"language\" id=\"language\" value=\"en\"/>\n<input type=\"hidden\" name=\"affiliateName\"
+        id=\"memberAreaAffiliateName\" value=\"espn\"/>\n<input type=\"hidden\" name=\"regFormId\"
+        id=\"regFormId\" value=\"espn\"/>\n</form>\n<div class=\"signin\" id=\"signin\"></div>\n<script>espn.memberservices.welcome();</script>\n<div
+        class=\"nav-edition editions\">\n<label>EDITIONS:</label>\n<ul class=\"main\">\n\t<li
+        class=\"e-usa active\"><a href=\"http://espn.go.com/\" name=\"&amp;lpos=editionsnav&amp;lid=usa\">USA</a></li>\n\t<li
+        class=\"e-deportes\"><a href=\"http://espndeportes.espn.go.com/\" name=\"&amp;lpos=editionsnav&amp;lid=deportes\"
+        class=\"{langPref:'spanish'}\">ESPA&#x00D1;OL</a></li>\n\t<li class=\"last
+        dropdown\">\n\t<ul class=\"\">\n\t<li class=\"selected\">More</li>\n\t<li><a
+        href=\"http://www.espn.com.au\" name=\"&amp;lpos=editionsnav&amp;lid=australia\">Australia</a></li>\n\t<li><a
+        href=\"http://www.espn.com.br\" name=\"&amp;lpos=editionsnav&amp;lid=brazil\">Brazil</a></li>\n\t<li><a
+        href=\"http://www.espn.co.uk/\" name=\"&amp;lpos=editionsnav&amp;lid=uk\">United
+        Kingdom</a></li>\n\t</ul>\n\t</li>\n</ul>\n</div>\n\n<div class=\"nav-edition\">\n<label>CITIES:</label>\n<ul
+        class=\"main\">\n\t<li class=\"e-boston\"><a href=\"http://espn.go.com/boston/\"
+        name=\"&amp;lpos=citynav&amp;lid=boston\">BOSTON</a></li>\n\t<li class=\"e-chicago\"><a
+        href=\"http://espn.go.com/chicago/\" name=\"&amp;lpos=citynav&amp;lid=chicago\">CHICAGO</a></li>\n\t<li
+        class=\"e-dallas\"><a href=\"http://espn.go.com/dallas/\" name=\"&amp;lpos=citynav&amp;lid=dallas\">DALLAS</a></li>\n\t<li
+        class=\"e-losangeles\"><a href=\"http://espn.go.com/los-angeles/\" name=\"&amp;lpos=citynav&amp;lid=losangeles\">LOS
+        ANGELES</a></li>\n\t<li class=\"last e-newyork\"><a href=\"http://espn.go.com/new-york/\"
+        name=\"&amp;lpos=citynav&amp;lid=newyork\">NEW YORK</a></li>\n</ul>\n</div>\n</div>\n<!--
+        end top-bar -->\n<!-- begin espn-logo -->\n<div class=\"espn-logo\">\n<h1>\n<a
+        href=\"http://espn.go.com/\" name=\"&lpos=sitenavdefault&lid=sitenav_main-logo\"
+        class=\"espn\">ESPN</a> <a href=\"http://espn.go.com/nhl/\" class=\"section-title\">NHL</a></h1>\n</div>\n<!--
+        end espn-logo -->\n<!-- begin ad -->\n<span class=\"presby\">\n<script>if(\"undefined\"!=typeof
+        ad_kvps&&\"undefined\"!=typeof ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof
+        ad_ord){if(\"undefined\"==typeof ad_site||\"undefined\"==typeof ad_zone)var
+        ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayerstats\";var pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var
+        this_ad_u=ad_u.replace(\";\",pipe+\"sz=150x45,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=SponsoredByLogoHeader;\"+this_ad_u+\"sz=150x45,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"SponsoredByLogoHeader\" data-cb-dfp-id=\"'+ad_kvps+'sz=150x45,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=150x45,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=150x45,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n</span>\n<!-- end ad -->\n<div id=\"shop\"><a
+        class=\"shop-btn\" href=\"http://espn.teamfanshop.com/?source=ESPN_HPHEADERLINK%3ASHOPBUTTONHEADER%3ANHL_3_21_2012\"
+        name=\"&lpos=sitenavdefault&lid=sitenav_shopbutton\">Shop</a></div><style>.ie6
+        #searchBox, .ie6 #searchBox div { display: inline; } </style><!-- begin search
+        -->\n<div id=\"nav-main-search\">\n<form id=\"searchBox\" name=\"searchBox\"
+        action=\"http://search.espn.go.com/results\" method=\"get\" accept-charset=\"utf-8\"
+        style=\"color: #999999;\">\n<div class=\"clearfix\">\n<input autocomplete=\"off\"
+        class=\"text\" type=\"text\" placeholder=\"Search\" name=\"searchString\"
+        id=\"searchString\" />\n<input type=\"hidden\" name=\"page\" id=\"page\" value=\"null\"
+        />\n<input type=\"hidden\" name=\"fromForm\" value=\"true\" />\n<input class=\"submit\"
+        type=\"submit\" value=\"\" />\n</div>\n</form>\n</div>\n<!-- end search -->\n</div>\n<!--
+        end header -->\n\n<script>if(\"undefined\"!=typeof ad_kvps&&\"undefined\"!=typeof
+        ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof ad_ord){if(\"undefined\"==typeof
+        ad_site||\"undefined\"==typeof ad_zone)var ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayerstats\";var
+        pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var this_ad_u=ad_u.replace(\";\",pipe+\"sz=1280x946,200x800,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=Background_Skin;\"+this_ad_u+\"sz=1280x946,200x800,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"Background_Skin\" data-cb-dfp-id=\"'+ad_kvps+'sz=1280x946,200x800,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=1280x946,200x800,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=1280x946,200x800,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n<!-- begin subheader -->\n<div id=\"subheader\">\n<!--
+        begin content -->\n<div id=\"content-wrapper\">\n<div id=\"ad-top\" class=\"container\">\n<!--
+        begin Banner ad -->\n<div class=\"span-6 ad banner top\"><div class=\"ad-center\"><div
+        class=\"ad-wrapper\">\n<script>if(\"undefined\"!=typeof ad_kvps&&\"undefined\"!=typeof
+        ad_u&&\"undefined\"!=typeof ad_counter&&\"undefined\"!=typeof ad_ord){if(\"undefined\"==typeof
+        ad_site||\"undefined\"==typeof ad_zone)var ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayerstats\";var
+        pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var this_ad_u=ad_u.replace(\";\",pipe+\"sz=728x90,970x66,924x50,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=Banner;\"+this_ad_u+\"sz=728x90,970x66,924x50,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"Banner\" data-cb-dfp-id=\"'+ad_kvps+'sz=728x90,970x66,924x50,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=728x90,970x66,924x50,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=nhl;tm=det;pl=1223;sz=728x90,970x66,924x50,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n</div></div></div>\n<!-- end Banner
+        ad -->\n</div>\n<div id=\"content\" class=\"container\">\n<div id=\"fb-root\"></div><!--[if
+        lte IE 7]><link rel=\"stylesheet\" charset=\"utf-8\" media=\"screen\" href=\"http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css\"
+        type=\"text/css\" /><div class=\"span-6\" id=\"browser-alert-wrapper\" style=\"display:none;\"><div
+        class=\"mod-container mod-no-header-footer browser-alert\"><div class=\"mod-content\"><div
+        class=\"gradient-container\"><h1><span>Your Web Browser</span> is no longer
+        supported</h1><p>To experience everything that ESPN.com has to offer, we recommend
+        that you upgrade to a newer version of your web browser. Click the upgrade
+        button to the right or <a href=\"http://espn.go.com/espn/news/story?id=5630562\">learn
+        more</a>.</p><ul><li><a class=\"btn-upgrade\" href=\"http://www.microsoft.com/windows/internet-explorer/default.aspx\">Upgrade</a></li><li><a
+        class=\"btn-faq\" href=\"http://espn.go.com/espn/news/story?id=5630562\">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var
+        a=b(\"#browser-alert-wrapper\");if(espn.cookie.get(\"browseralert\")!=\"true\"){b('<a
+        class=\"btn-close\" href=\"#\">Close</a>').bind(\"click\",function(){a.hide();espn.cookie.set(\"browseralert\",\"true\",30);return
+        false}).appendTo(a.find(\".gradient-container\"));a.show();espn.cookie.set(\"browseralert\",\"true\")}},100)})(jQuery);</script><![endif]-->\n<div
+        id=\"fb-root\"></div>\n<script>\n\twindow.fbAsyncInit = function() {\n\t\tFB.init({\n\t\t\tappId:
+        \"116656161708917\",\n\t\t\tcookie: true, // these two are not required for
+        partners that\n\t\t\tstatus: true, // only rely on stk plugins and don't use
+        connect\n\t\t\txfbml: true,\n\t\t\tchannelUrl: document.location.protocol
+        + '//' + document.domain + '/facebook/channel.html'\n\t\t});\n\t\tjQuery(document).ready(function
+        () {\n\t\t\tFB.XFBML.parse();\n\t\t\tFB.Event.subscribe('edge.create', function(href,
+        widget) {\n\t\t\t\tif(typeof anTrackLink === 'function') {\n\t\t\t\t\tanTrackLink(jQuery('.fb_iframe_widget')[0],'espn','facebook','like');\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t};\n\t(function()
+        {\n\t\tvar e = document.createElement('script'); e.async = true;\n\t\te.src
+        = document.location.protocol + '//connect.facebook.net/en_US/all.js';\n\t\tdocument.getElementById('fb-root').appendChild(e);\n\t}());\n</script>\n\n<style>\n\n.mod-myespn
+        .mod-content a img {\n\n    padding: 10px;\n\n    margin:0px;\n\n}\n\n.mod-page-header
+        ul.player-favorites a.btn-add-fave-player { color: #ddd !important; }\n\n.mod-page-header
+        ul.player-favorites a.btn-add-fave-player.favorite { color: #000 !important;
+        }\n\n</style>\n\n<script type=\"text/javascript\">\n\n\t(function($) {\n\n\t\tvar
+        loggedIn = espn.core.loggedIn;\n\n\t\tvar displayModule = false;\n\n\t\tvar
+        showAddButton = true;\n\n\t\tvar fadeTime = 1500;\n\n\t\tvar baseRef = '/';\n\n\t\tvar
+        lang = 'en';\n\n\t\tvar playerId = 1223;\n\n\t\tvar sportId = $('body').metadata()['sportId'];\n\n\t\tvar
+        playerName = 'Pavel Datsyuk';\n\n\t\tvar abbrevs = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',600:'soccer',850:'tennis',1106:'golf',2020:'nascar',3301:'mma',
+        3540:'ncfrecruit', 3550:'ncbrecruit', 3551:'hs_bsbrecruit', 3552:'hs_sfbrecruit'}\n\n\t\tvar
+        sportAbbrev = abbrevs[sportId];\n\n\t\tvar sportAbbrevFav = abbrevs[sportId];\n\n\t\tvar
+        count = 0;\n\n\t\tvar displayModule = false;\n\n\t\tvar appId = 1\n\n\t\tvar
+        tabName = \"players\"\n\n\t\tif (sportId == 3540 || sportId == 3550 || sportId
+        == 3551 || sportId == 3552) {\n\n\t\t\tappId = 3;\n\n\t\t}\n\n\t\tif(sportId
+        == 3540 || sportId == 3550){\n\n\t\t\ttabName = \"recruits\"\n\n\t\t}\n\n\t\tfunction
+        resetData(checkSport, checkPlayer){\n\n\t\t\tif (loggedIn){\n\n\t\t\t\tespn.p13n.reset({\n\n\t\t\t\t\tsuccess:
+        function(data){\n\n\t\t\t\t\t\tif (data != null && data != 'UNDEF' && typeof(data.myPlayers)
+        != 'UNDEF' && data.myPlayers != null){\n\n\t\t\t\t\t\t\tvar count = 0;\n\n\t\t\t\t\t\t\tvar
+        sportTypes = {10:'mlb',46:'nba',28:'nfl',90:'nhl',850:'tennis',1106:'golf',2020:'nascar',3301:'mma'}\n\n\t\t\t\t\t\t\tvar
+        sportAbbrevs = {10:'MLB',46:'NBA',28:'NFL',90:'NHL',850:'Tennis',1106:'Golf',2020:'NASCAR',3301:'MMA'}\n\n\t\t\t\t\t\t\t$.each(data.myPlayers,
+        function(i,item){\n\n\t\t\t\t\t\t\t\tif (typeof(item.sport) != 'UNDEF' &&
+        item.sport != null && item.sport == sportId && count < 12) {\n\n\t\t\t\t\t\t\t\t\tvar
+        image = '';\n\n\t\t\t\t\t\t\t\t\tsportType = sportTypes[item.sport];\n\n\t\t\t\t\t\t\t\t\tsportAbbrev
+        = sportAbbrevs[item.sport];\n\n\t\t\t\t\t\t\t\t\tsport = item.sport;\n\n\t\t\t\t\t\t\t\t\tabbrev
+        = '';\n\n\t\t\t\t\t\t\t\t\tswabbrev = '';\n\n\t\t\t\t\t\t\t\t\tif (typeof(item.abbrev)
+        != 'UNDEF' && item.abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\tabbrev = item.abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\tswabbrev
+        = item.sw_abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tdesc
+        = item.text;\n\n\t\t\t\t\t\t\t\t\tdescSEO = desc;\n\n\t\t\t\t\t\t\t\t\twhile(descSEO.indexOf('
+        ')!=-1)descSEO=descSEO.replace(' ','-');\n\n\t\t\t\t\t\t\t\t\tvar classname
+        = '';\n\n\t\t\t\t\t\t\t\t\tif (sport == 46 || sport == 10 || sport == 90 ||
+        sport == 28 || sport == 1106 || sport == 850){\n\n\t\t\t\t\t\t\t\t\t\timage
+        = 'href=\"http://espn.go.com/' + sportType + baseRef + 'player/_/id/' + item.id
+        + '/' + descSEO.toLowerCase() + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/'
+        + sportType + '/players/full/' + item.id + '.png&w=35&h=48&scale=crop&background=0xcccccc&transparent=false\"></a>';\n\n\t\t\t\t\t\t\t\t\t}
+        else if (sport == 2020) {\n\n\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/rpm/driver?driverId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/i/rpm/mugs/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (count == 0 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').html('');\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tif
+        (image != ''){\n\n\t\t\t\t\t\t\t\t\t\tif (count == 14) {\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a id=\"lastplayer\" ' + image;\n\n\t\t\t\t\t\t\t\t\t\t} else {\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a ' + image;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif (checkPlayer
+        == item.id && checkSport == item.sport){\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn
+        .personalization-teams').prepend(image).fadeIn(fadeTime, function(){\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('#lastplayer').remove();\n\n\t\t\t\t\t\t\t\t\t\t\t\tespn.core.init.faves();\n\n\t\t\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\telse
+        if (checkPlayer == 0) {\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').append(image);\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\tcount++;\n\n\t\t\t\t\t\t\t\t\tif
+        (count == 1 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t$('#myespn-personalization').show();\n\n\t\t\t\t\t\t\t\t\t\tdisplayModule
+        = true;\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\tif
+        (count < 15) {\n\n\t\t\t\t\t\t\t\t$.each(data.myPlayers, function(i,item){\n\n\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sport) != 'UNDEF' && item.sport != null && item.sport != sportId
+        && count < 15) {\n\n\t\t\t\t\t\t\t\t\t\tvar image = '';\n\n\t\t\t\t\t\t\t\t\t\tsportType
+        = sportTypes[item.sport];\n\n\t\t\t\t\t\t\t\t\t\tsportAbbrev = sportAbbrevs[item.sport];\n\n\t\t\t\t\t\t\t\t\t\tsport
+        = item.sport;\n\n\t\t\t\t\t\t\t\t\t\tabbrev = '';\n\n\t\t\t\t\t\t\t\t\t\tswabbrev
+        = '';\n\n\t\t\t\t\t\t\t\t\t\tif (typeof(item.abbrev) != 'UNDEF' && item.abbrev
+        != null){\n\n\t\t\t\t\t\t\t\t\t\t\tabbrev = item.abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){\n\n\t\t\t\t\t\t\t\t\t\t\tswabbrev
+        = item.sw_abbrev.toLowerCase();\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tdesc
+        = item.text;\n\n\t\t\t\t\t\t\t\t\t\tdescSEO = desc;\n\n\t\t\t\t\t\t\t\t\t\twhile(descSEO.indexOf('
+        ')!=-1)descSEO=descSEO.replace(' ','-');\n\n\t\t\t\t\t\t\t\t\t\tif (sport
+        == 46 || sport == 10 || sport == 90 || sport == 850){\n\n\t\t\t\t\t\t\t\t\t\t\timage
+        = 'href=\"http://espn.go.com/' + sportType + baseRef + 'player/_/id/' + item.id
+        + '/' + descSEO.toLowerCase() + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/'
+        + sportType + '/players/full/' + item.id + '.png&w=35&h=48&scale=crop&background=0xcccccc&transparent=false\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t}
+        else if (sport == 28) {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/'
+        + sportType + baseRef + 'players/profile?playerId=' + item.id + '\"  title=\"'
+        + desc + '\"><img src=\"http://a.espncdn.com/i/headshots/' + sportType + '/players/35/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t} else if (sport == 1106)
+        {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/golf/players/profile?playerId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/golfonline/img/profiles/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t} else if (sport == 2020)
+        {\n\n\t\t\t\t\t\t\t\t\t\t\timage = 'href=\"http://espn.go.com/rpm/driver?driverId='
+        + item.id + '\"  title=\"' + desc + '\"><img src=\"http://a.espncdn.com/i/rpm/mugs/35x48/'
+        + item.id + '.jpg\"></a>';\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (count == 0 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').html('');\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tif
+        (image != ''){\n\n\t\t\t\t\t\t\t\t\t\t\tif (count == 14) {\n\n\t\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a id=\"lastplayer\" ' + image;\n\n\t\t\t\t\t\t\t\t\t\t\t} else {\n\n\t\t\t\t\t\t\t\t\t\t\t\timage
+        = '<a ' + image;\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t\tif (checkPlayer
+        == item.id && checkSport == item.sport){\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn
+        .personalization-teams').prepend(image).fadeIn(fadeTime, function(){\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t$('#lastplayer').remove();\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tespn.core.init.faves();\n\n\t\t\t\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t\telse
+        if (checkPlayer == 0) {\n\n\t\t\t\t\t\t\t\t\t\t\t\t$('.mod-myespn .personalization-teams').append(image);\n\n\t\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t\tcount++;\n\n\t\t\t\t\t\t\t\t\t\tif
+        (count == 1 && !displayModule){\n\n\t\t\t\t\t\t\t\t\t\t\t$('#myespn-personalization').show();\n\n\t\t\t\t\t\t\t\t\t\t\tdisplayModule
+        = true;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t}\n\n\t\t\t\t});\n\n\t\t\t}\n\n\t\t}\n\n\t\t$(document).ready(function()
+        {\n\n\t\t\tresetData(0, 0);\n\n\t\t\tif (sportAbbrevFav != 'ncf' && sportAbbrevFav
+        != 'ncb' && sportAbbrevFav != 'mma'){\n\n\t\t\t\tif (loggedIn){\n\n\t\t\t\t\tif
+        ($('.add-fave-player').length > 0){\n\n\t\t\t\t\t\t$('.add-fave-player').html('<a
+        class=\"btn-add-fave-player\"></a>');\n\n\t\t\t\t\t}\n\n\t\t\t\t\tespn.p13n.get({\n\n\t\t\t\t\t\t\"success\"
+        : function(data) {\n\n\t\t\t\t\t\t\tif (data!=null && data!='UNDEF' && typeof(data.myPlayers)
+        != 'UNDEF' && data.myPlayers != null) {\n\n\t\t\t\t\t\t\t\t$.each(data.myPlayers,
+        function(i,item) {\n\n\t\t\t\t\t\t\t\t\tif (typeof(item.sport) != 'UNDEF'
+        && item.sport != null) {\n\n\t\t\t\t\t\t\t\t\t\tif (item.sport == sportId
+        && item.id == playerId){\n\n\t\t\t\t\t\t\t\t\t\t\tshowAddButton = false;\n\n\t\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tif
+        (showAddButton){\n\n\t\t\t\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').html('Add
+        to my favorites').show().attr(\"onclick\",\"anTrackLink(this,'espn','playerprofile','\"
+        + sportAbbrevFav + \"_player_addfavorite_loggedin-add'); return false;\");\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\telse{\n\n\t\t\t\t\t\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').html('Favorite Player').show().addClass('favorite
+        cbOverlay').attr({href:'',name:'&lpos=playerprofile&lid=' + sportAbbrevFav
+        + '_player_addfavorite_loggedin-modify',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:tabName});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t},
+        {appId: appId});\n\n\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').click(function(){\n\n\t\t\t\t\t\tif
+        (showAddButton){ // don't allow the button to click through if it is informing
+        you of their favorite player\n\n\t\t\t\t\t\t\tshowAddButton = false; // don't
+        allow multiple clicks during the transition\n\n\t\t\t\t\t\t\tespn.p13n.add(\n\n\t\t\t\t\t\t\t\t{\n\n\t\t\t\t\t\t\t\t\t\"players\":
+        sportId+\":\"+playerId+\":::\"+appId\n\n\t\t\t\t\t\t\t\t},\n\n\t\t\t\t\t\t\t\t{\n\n\t\t\t\t\t\t\t\t\t\"success\"
+        : function() {\n\n\t\t\t\t\t\t\t\t\t\t$('.add-fave-player a.btn-add-fave-player').html('Added').addClass('favorite').css('cursor','default');\n\n\t\t\t\t\t\t\t\t\t\tresetData(sportId,
+        playerId);\n\n\t\t\t\t\t\t\t\t\t},\n\n\t\t\t\t\t\t\t\t\t\"error\" : function()
+        {\n\n\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t);\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t});\n\n\t\t\t\t}\n\n\t\t\t\telse{\n\n\t\t\t\t\tif
+        ($('.add-fave-player').length > 0){\n\n\t\t\t\t\t\t$('.add-fave-player').html('<a
+        class=\"btn-add-fave-player\">Sign in to personalize</a>');\n\n\t\t\t\t\t}\n\n\t\t\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').show().attr('href','','name','&lpos=playerprofile&lpos=playerprofile&lid='
+        + sportAbbrevFav + '_player_addfavorite_loggedout').attr('tref','/members/v3_1/login').attr('data-options','{\"addPlayers\":\"'+sportId+':'+playerId+'\",\"width\":\"820\",\"height\":\"385\"}').addClass(\"cbOverlay\");\n\n\t\t\t\t}\n\n\t\t\t}\n\n\n\n\t\t\t$('.add-fave-player
+        a.btn-add-fave-player').hover(\n\n\t\t\t\tfunction(){\n\n\t\t\t\t\t$(this).addClass('favorite');\n\n\t\t\t\t},\n\n\t\t\t\tfunction(){\n\n\t\t\t\t\tif
+        (showAddButton){\n\n\t\t\t\t\t\t$(this).removeClass('favorite');\n\n\t\t\t\t\t}\n\n\t\t\t\t}\n\n\t\t\t);\n\n\n\n\t\t\t$('.inline-header
+        ul.links li a').addClass('cbOverlay').attr({href:'',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:tabName});\n\n\n\n\t\t\tif
+        (sportAbbrevFav != 'ncf'){\n\n\t\t\t\t$(\".split-select\").click(function(){\n\n\t\t\t\t\tif
+        ($('.split-level-items').length > 0){\n\n\t\t\t\t\t\t$(\".split-level-items\").toggle();\n\n\t\t\t\t\t\t$(\".split-level-content\").toggle();\n\n\t\t\t\t\t}
+        else {\n\n\t\t\t\t\t\tvar teamId = $(this).attr('id');\n\n\t\t\t\t\t\tvar
+        posId = $(this).attr('rel');\n\n\t\t\t\t\t\tvar dlink = '/nhl/format/player/design09/dropdown';\n\n\t\t\t\t\t\tif
+        (lang == 'es') {\n\n\t\t\t\t\t\t\tdlink = '/nhl/deportes/format/player/design09/dropdown';\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t$.ajax({\n\n\t\t\t\t\t\t\ttype:\"GET\",\n\n\t\t\t\t\t\t\turl:
+        dlink,\n\n\t\t\t\t\t\t\tdata: 'teamId='+teamId+'&posId='+posId+'&lang='+lang,\n\n\t\t\t\t\t\t\tdataType:
+        \"html\",\n\n\t\t\t\t\t\t\tsuccess: function(html){\n\n\t\t\t\t\t\t\t\t$('.mod-split-menu').append(html);\n\n\t\t\t\t\t\t\t\t$(\".split-level-items\").toggle();\n\n\t\t\t\t\t\t\t\t$(\".split-level-content\").toggle();\n\n\t\t\t\t\t\t\t\t$(\".main-items
+        a\").bind('mouseover click', function(){\n\n\t\t\t\t\t\t\t\t\t$('.main-items
+        li.split-hover-bg').removeClass('split-hover-bg');\n\n\t\t\t\t\t\t\t\t\t$(this).parent().addClass('split-hover-bg');\n\n\t\t\t\t\t\t\t\t\tvar
+        thisId = $(this).attr('id');\n\n\t\t\t\t\t\t\t\t\t$('.split-level-content-list').each(function(){\n\n\t\t\t\t\t\t\t\t\t\t$(this).hide();\n\n\t\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t\t$('#'+thisId+'list').show();\n\n\t\t\t\t\t\t\t\t\treturn
+        false;\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t\t$(document).click(function(e){\n\n\t\t\t\t\t\t\t\t\tif
+        (e.button != 2) {\n\n\t\t\t\t\t\t\t\t\t\t$(\".split-level-items\").hide();\n\n\t\t\t\t\t\t\t\t\t\t$(\".split-level-content\").hide();\n\n\t\t\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t\t});\n\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t});\n\n\t\t\t\t\t}\n\n\t\t\t\t\treturn
+        false;\n\n\t\t\t\t});\n\n\t\t\t}\n\n\n\n\n\n\t\t\t$(\"#player-status-main\").click(function(){\n\n\t\t\t\t$(\"#player-status-main
+        #full-content\").toggle();\n\n\t\t\t});\n\n\n\n\t\t});\n\n\t})(jQuery);\n\n</script><div
+        class=\"mod-container mod-no-header-footer mod-page-header\"><div class=\"player-shadows\"><div
+        class=\"shadow-right\"></div><div class=\"shadow-left\"></div></div><div class=\"mod-content\"><div
+        class=\"team-logo\"></div><div class=\"main-headshot\"><img src=\"http://a.espncdn.com/combiner/i?img=/i/headshots/nhl/players/full/1223.png&w=350&h=254\"
+        alt=\"Pavel Datsyuk\"></div><h1>Pavel Datsyuk</h1><div class=\"player-bio\"><ul
+        class=\"player-favorites\"><li class=\"add-fave-player\"></li></ul><div class=\"line-divider\"></div><ul
+        class=\"general-info\"><li class=\"first\">#13 C </li><li>5' 11\", 194 lbs</li><li
+        class=\"last\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">Detroit
+        Red Wings</a></li></ul><ul class=\"player-metadata floatleft\"><li><span>Born</span>Jul
+        19, 1978 in Sverdlovsk, USSR</li><li><span>Age</span>34</li><li><span>Drafted</span>1998:
+        6th Rnd, 171st by DET</li><li><span>Experience</span>12 years</li></ul></div><div
+        class=\"player-stats\"><p>2012-13 Season</p><table class=\"header-stats\"><thead><th>G</th><th>A</th><th>PTS</th></thead><tr><td>15</td><td>34</td><td>49</td></tr><tr
+        class=\"title\"><td colspan=\"3\"><p>Career</p></td></tr><tr class=\"career\"><td>255</td><td>512</td><td>767</td></tr></table><p
+        class=\"footer\"><a href=\"/nhl/player/stats/_/id/1223/pavel-datsyuk\">Complete
+        Stats &#187;</a></p></div></div><div class=\"header-bg\"></div><div class=\"field\"></div><div
+        class=\"header-overlay\"></div></div><div class=\"player-select-header\"><p>Go
+        to</p><div class=\"mod-split-menu\"><div class=\"split-select\" id=\"5\"><a
+        class=\"btn-split-btn\">Pavel Datsyuk</a></div></div></div><div class=\"mod-page-tabs
+        mod-pagenav-tabs\"><ul class=\"ui-tabs\"><li><a href=\"/nhl/player/_/id/1223/pavel-datsyuk\">Player
+        Profile</a></li><li class=\"active\"><a href=\"/nhl/player/stats/_/id/1223/pavel-datsyuk\">Stats</a></li><li><a
+        href=\"/nhl/player/splits/_/id/1223/pavel-datsyuk\">Splits</a></li><li><a
+        href=\"/nhl/player/gamelog/_/id/1223/pavel-datsyuk\">Game Log</a></li><li><a
+        href=\"/nhl/player/videos/_/id/1223/pavel-datsyuk\">Videos</a></li><li><a
+        href=\"/nhl/player/photos/_/id/1223/pavel-datsyuk\">Photos</a></li></ul></div><div
+        class=\"bg-opaque\"><div class=\"span-6 last\"><div class=\"article\"><div
+        class=\"mod-article-title player-stats\"><h2>Pavel Datsyuk Stats</h2><p>Regular
+        Season | <a href=\"http://espn.go.com/nhl/player/stats/_/id/1223/seasontype/3/pavel-datsyuk\">Postseason</a></p></div><div
+        class=\"mod-container mod-table mod-player-stats\"><div class=\"mod-container
+        mod-table mod-player-stats\"><div class=\"mod-content\"><table cellspacing=\"1\"
+        cellpadding=\"3\" class=\"tablehead\"><tr class=\"stathead\"><td colspan=\"21\">REGULAR
+        SEASON STATS</td></tr><tr class=\"colhead\"><td width=\"6%\">SEASON</td><td
+        width=\"8%\">TEAM</td><td style=\"text-align:right;\" title=\"Games Played\">GP</td><td
+        style=\"text-align:right;\" title=\"Goals\">G</td><td style=\"text-align:right;\"
+        title=\"Assists\">A</td><td style=\"text-align:right;\" title=\"Points\">PTS</td><td
+        style=\"text-align:right;\" title=\"Plus/Minus Ratings\">+/-</td><td style=\"text-align:right;\"
+        title=\"Penalty Minutes\">PIM</td><td style=\"text-align:right;\" title=\"Shots
+        on Goal\">SOG</td><td style=\"text-align:right;\" title=\"Shooting Percentage\">%</td><td
+        style=\"text-align:right;\" title=\"Power-Play Goals\">PPG</td><td style=\"text-align:right;\"
+        title=\"Power-Play Assists\">PPA</td><td style=\"text-align:right;\" title=\"Short
+        Goals\">SHG</td><td style=\"text-align:right;\" title=\"Short Assists\">SHA</td><td
+        style=\"text-align:right;\" title=\"Game Winning Goals\">GWG</td><td style=\"text-align:right;\"
+        title=\"Game Tying Goals\">GTG</td><td style=\"text-align:right;\" title=\"Time
+        on Ice per Game\">TOI/G</td><td style=\"text-align:right;\" title=\"Production\">PROD</td></tr><tr
+        class=\"oddrow\"><td>'01-'02</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">70</td><td style=\"text-align:right;\">11</td><td
+        style=\"text-align:right;\">24</td><td style=\"text-align:right;\">35</td><td
+        style=\"text-align:right;\">4</td><td style=\"text-align:right;\">4</td><td
+        style=\"text-align:right;\">79</td><td style=\"text-align:right;\">13.9</td><td
+        style=\"text-align:right;\">2</td><td style=\"text-align:right;\">9</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">13:39</td><td style=\"text-align:right;\">27:17</td></tr><tr
+        class=\"evenrow\"><td>'02-'03</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">64</td><td style=\"text-align:right;\">12</td><td
+        style=\"text-align:right;\">39</td><td style=\"text-align:right;\">51</td><td
+        style=\"text-align:right;\">20</td><td style=\"text-align:right;\">16</td><td
+        style=\"text-align:right;\">82</td><td style=\"text-align:right;\">14.6</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">13</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">1</td><td
+        style=\"text-align:right;\">14:56</td><td style=\"text-align:right;\">18:44</td></tr><tr
+        class=\"oddrow\"><td>'03-'04</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">75</td><td style=\"text-align:right;\">30</td><td
+        style=\"text-align:right;\">38</td><td style=\"text-align:right;\">68</td><td
+        style=\"text-align:right;\">-2</td><td style=\"text-align:right;\">35</td><td
+        style=\"text-align:right;\">136</td><td style=\"text-align:right;\">22.1</td><td
+        style=\"text-align:right;\">8</td><td style=\"text-align:right;\">15</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">4</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">18:16</td><td style=\"text-align:right;\">20:09</td></tr><tr
+        class=\"evenrow\"><td>'05-'06</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">75</td><td style=\"text-align:right;\">28</td><td
+        style=\"text-align:right;\">59</td><td style=\"text-align:right;\">87</td><td
+        style=\"text-align:right;\">26</td><td style=\"text-align:right;\">22</td><td
+        style=\"text-align:right;\">146</td><td style=\"text-align:right;\">19.2</td><td
+        style=\"text-align:right;\">11</td><td style=\"text-align:right;\">28</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">4</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">17:53</td><td style=\"text-align:right;\">15:25</td></tr><tr
+        class=\"oddrow\"><td>'06-'07</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">79</td><td style=\"text-align:right;\">27</td><td
+        style=\"text-align:right;\">60</td><td style=\"text-align:right;\">87</td><td
+        style=\"text-align:right;\">36</td><td style=\"text-align:right;\">20</td><td
+        style=\"text-align:right;\">207</td><td style=\"text-align:right;\">13.0</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">24</td><td
+        style=\"text-align:right;\">2</td><td style=\"text-align:right;\">1</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">19:57</td><td style=\"text-align:right;\">18:07</td></tr><tr
+        class=\"evenrow\"><td>'07-'08</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">82</td><td style=\"text-align:right;\">31</td><td
+        style=\"text-align:right;\">66</td><td style=\"text-align:right;\">97</td><td
+        style=\"text-align:right;\">41</td><td style=\"text-align:right;\">20</td><td
+        style=\"text-align:right;\">264</td><td style=\"text-align:right;\">11.7</td><td
+        style=\"text-align:right;\">10</td><td style=\"text-align:right;\">30</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">6</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">21:22</td><td style=\"text-align:right;\">18:04</td></tr><tr
+        class=\"oddrow\"><td>'08-'09</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">81</td><td style=\"text-align:right;\">32</td><td
+        style=\"text-align:right;\">65</td><td style=\"text-align:right;\">97</td><td
+        style=\"text-align:right;\">34</td><td style=\"text-align:right;\">22</td><td
+        style=\"text-align:right;\">248</td><td style=\"text-align:right;\">12.9</td><td
+        style=\"text-align:right;\">11</td><td style=\"text-align:right;\">25</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">1</td><td
+        style=\"text-align:right;\">3</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">19:12</td><td style=\"text-align:right;\">16:02</td></tr><tr
+        class=\"evenrow\"><td>'09-'10</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">80</td><td style=\"text-align:right;\">27</td><td
+        style=\"text-align:right;\">43</td><td style=\"text-align:right;\">70</td><td
+        style=\"text-align:right;\">17</td><td style=\"text-align:right;\">18</td><td
+        style=\"text-align:right;\">203</td><td style=\"text-align:right;\">13.3</td><td
+        style=\"text-align:right;\">9</td><td style=\"text-align:right;\">16</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">3</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">20:21</td><td style=\"text-align:right;\">23:15</td></tr><tr
+        class=\"oddrow\"><td>'10-'11</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">56</td><td style=\"text-align:right;\">23</td><td
+        style=\"text-align:right;\">36</td><td style=\"text-align:right;\">59</td><td
+        style=\"text-align:right;\">11</td><td style=\"text-align:right;\">15</td><td
+        style=\"text-align:right;\">137</td><td style=\"text-align:right;\">16.8</td><td
+        style=\"text-align:right;\">6</td><td style=\"text-align:right;\">12</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">19:19</td><td style=\"text-align:right;\">18:20</td></tr><tr
+        class=\"evenrow\"><td>'11-'12</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">70</td><td style=\"text-align:right;\">19</td><td
+        style=\"text-align:right;\">48</td><td style=\"text-align:right;\">67</td><td
+        style=\"text-align:right;\">21</td><td style=\"text-align:right;\">14</td><td
+        style=\"text-align:right;\">164</td><td style=\"text-align:right;\">11.6</td><td
+        style=\"text-align:right;\">4</td><td style=\"text-align:right;\">19</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">0</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">19:34</td><td style=\"text-align:right;\">20:27</td></tr><tr
+        class=\"oddrow\"><td>'12-'13</td><td><ul class=\"game-schedule\"><li class=\"team-logo-small
+        logo-nhl-small nhl-small-5\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"></a></li><li
+        class=\"team-name\"><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\">DET</a></li></ul></td><td
+        style=\"text-align:right;\">47</td><td style=\"text-align:right;\">15</td><td
+        style=\"text-align:right;\">34</td><td style=\"text-align:right;\">49</td><td
+        style=\"text-align:right;\">21</td><td style=\"text-align:right;\">14</td><td
+        style=\"text-align:right;\">107</td><td style=\"text-align:right;\">14.0</td><td
+        style=\"text-align:right;\">8</td><td style=\"text-align:right;\">8</td><td
+        style=\"text-align:right;\">0</td><td style=\"text-align:right;\">3</td><td
+        style=\"text-align:right;\">6</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">20:11</td><td style=\"text-align:right;\">19:21</td></tr><tr
+        class=\"total\"><td colspan=\"2\">Career</td><td style=\"text-align:right;\">779</td><td
+        style=\"text-align:right;\">255</td><td style=\"text-align:right;\">512</td><td
+        style=\"text-align:right;\">767</td><td style=\"text-align:right;\">229</td><td
+        style=\"text-align:right;\">200</td><td style=\"text-align:right;\">1773</td><td
+        style=\"text-align:right;\">14.4</td><td style=\"text-align:right;\">75</td><td
+        style=\"text-align:right;\">199</td><td style=\"text-align:right;\">6</td><td
+        style=\"text-align:right;\">5</td><td style=\"text-align:right;\">43</td><td
+        style=\"text-align:right;\">1</td><td style=\"text-align:right;\">--</td><td
+        style=\"text-align:right;\">--</td></tr></table></div></div><div class=\"mod-footer\"><div
+        class=\"foot-header stathead\"><h5>Glossary</h5></div><div class=\"foot-content\"><ul><li><span>GP:</span>
+        Games Played</li><li><span>G:</span> Goals</li><li><span>A:</span> Assists</li><li><span>PTS:</span>
+        Points</li></ul><ul><li><span>+/-:</span> Plus/Minus Ratings</li><li><span>PIM:</span>
+        Penalty Minutes</li><li><span>SOG:</span> Shots on Goal</li><li><span>%:</span>
+        Shooting Percentage</li></ul><ul><li><span>PPG:</span> Power-Play Goals</li><li><span>PPA:</span>
+        Power-Play Assists</li><li><span>SHG:</span> Short Goals</li><li><span>SHA:</span>
+        Short Assists</li></ul><ul><li><span>GWG:</span> Game Winning Goals</li><li><span>GTG:</span>
+        Game Tying Goals</li><li><span>TOI/G:</span> Time on Ice per Game</li><li><span>PROD:</span>
+        Production</li></ul></div></div></div></div></div><div class=\"span-6\"><div
+        class=\"span-4\"><!-- begin sponsored links -->\n<div id=\"sponsored\" class=\"mod-container
+        mod-no-footer\">\n<!-- begin sp links -->\n<div style=\"margin: 10px 0 0 0;\">\n<!--
+        sponsored links: nhl:misc-results-bottom:614w250h--><div style=\"margin:0px
+        0px 5px 0px;\"><script type=\"text/javascript\">adsonar_placementId=1507993;adsonar_pid=2187776;adsonar_ps=-1;adsonar_zw=614;adsonar_zh=250;adsonar_jv='ads.espn.adsonar.com';</script><script
+        language=\"JavaScript\" src=\"http://js.adsonar.com/js/adsonar.js\"></script></div></div>\n<!--
+        end sp links -->\n</div>\n<!-- end sponsored links -->\n</div><div class=\"span-2
+        last\">\n<script>if(\"undefined\"!=typeof ad_kvps&&\"undefined\"!=typeof ad_u&&\"undefined\"!=typeof
+        ad_counter&&\"undefined\"!=typeof ad_ord){if(\"undefined\"==typeof ad_site||\"undefined\"==typeof
+        ad_zone)var ad_site=\"espn.us.com.nhl\",ad_zone=\"nhlplayerstats\";var pipe=\"\";\"|\"!=ad_u[ad_u.length-2]&&(pipe=\"|\");var
+        this_ad_u=ad_u.replace(\";\",pipe+\"sz=300x600,300x250,1x1|;\"),ad_finalString=\"http://ad.Doubleclick.net/adj/\"+ad_site+\"/\"+ad_zone+\";\"+ad_kvps+\"pos=InContent;\"+this_ad_u+\"dcopt=ist;sz=300x600,300x250,1x1;tile=\"+ad_counter+\";ord=\"+ad_ord;document.write('<div
+        data-cb-ad-id=\"InContent\" data-cb-dfp-id=\"'+ad_kvps+'sz=300x600,300x250,1x1\"><script
+        src='+ad_finalString+'>\\x3c/script></div>');ad_counter++};</script>\n<noscript><a
+        href=\"http://ad.Doubleclick.net/jump/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=espn;pl=1223;sz=300x600,300x250,1x1;\"
+        target=\"_blank\"><img src=\"http://ad.Doubleclick.net/ad/espn.us.com.nhl/nhlplayerstats;pgtyp=nhlplayerstats;sp=espn;pl=1223;sz=300x600,300x250,1x1;\"
+        border=\"0\" alt=\"\"></a></noscript>\n</div><div class=\"tablesm clear\">Data
+        provided by Elias Sports Bureau</div></div></div></div>\n<div id=\"nav-wrapper\"
+        class=\"container\">\n<div id=\"nav-wrapper-container\">\n<div id=\"nav-main\">\n<!--
+        begin site nav -->\n<ul class=\"top\">\n<!-- begin site nav -->\n<p><!-- begin
+        site nav --></p>\n<ul class=\"top\" id=\"nav-main-list\"><!-- start: Menuitem
+        :: MyTAB -->\n<li class=\"last myespn\" id=\"menu-myespn\"><a class=\"myespn\"
+        ref=\"#\">MyESPN</a></li>\n<!-- start: Menuitem :: NFL -->\n<li class=\"sport-menu
+        default t-nfl\" data-sportid=\"28\" id=\"menu-nfl\"><a href=\"http://espn.go.com/nfl/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nfl\">NFL</a></li>\n<!-- start:
+        Menuitem :: MLB -->\n<li class=\"sport-menu default t-mlb\" data-sportid=\"10\"
+        id=\"menu-mlb\"><a href=\"http://espn.go.com/mlb/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_mlb\">MLB</a></li>\n<!--
+        start: Menuitem :: NBA -->\n<li class=\"sport-menu default t-nba\" data-sportid=\"46\"
+        id=\"menu-nba\"><a href=\"http://espn.go.com/nba/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nba\">NBA</a></li>\n<!--
+        start: Menuitem :: NHL -->\n<li class=\"sport-menu default t-nhl selected\"
+        data-sportid=\"90\" id=\"menu-nhl\"><a href=\"http://espn.go.com/nhl/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nhl\">NHL</a></li>\n<!--
+        start: Menuitem :: NCAA FB -->\n<li class=\"sport-menu default t-ncf\" data-sportid=\"23\"
+        id=\"menu-ncf\"><a href=\"http://espn.go.com/college-football/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_ncf\">NCAAF</a></li>\n<!--
+        start: Menuitem :: NCAA BB -->\n<li class=\"sport-menu default t-ncb\" data-sportid=\"41\"
+        id=\"menu-ncb\"><a href=\"http://espn.go.com/mens-college-basketball/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_ncb\">NCAAM</a></li>\n<!--
+        start: Menuitem :: NASCAR -->\n<li class=\"sport-menu default t-nascar\" data-sportid=\"2020\"
+        id=\"menu-nascar\"><a href=\"http://espn.go.com/racing/nascar/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_nascar\">NASCAR</a></li>\n<!--
+        start: Menuitem :: SOCCER -->\n<li class=\"sport-menu default t-soccer\" data-sportid=\"600\"
+        id=\"menu-soccer\"><a href=\"http://espnfc.com/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_soccer\">SOCCER</a></li>\n<!--
+        start: Menuitem :: GOLF -->\n<li class=\"sport-menu t-golf\" data-sportid=\"1106\"
+        id=\"menu-golf\" style=\"display: none;\"><a href=\"http://espn.go.com/golf/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_golfl\">GOLF</a></li>\n<!--
+        start: Menuitem :: TENNIS -->\n<li class=\"sport-menu t-tennis\" data-sportid=\"850\"
+        id=\"menu-tennis\" style=\"display: none;\"><a href=\"http://espn.go.com/tennis/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_tennis\">TENNIS</a></li>\n<!--
+        start: Menuitem :: BOXING-->\n<li class=\"sport-menu t-boxing\" data-sportid=\"1000\"
+        id=\"menu-boxing\" style=\"display: none;\"><a href=\"http://espn.go.com/boxing/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_boxing\">BOXING</a></li>\n<!--
+        start: Menuitem :: MMA -->\n<li class=\"sport-menu t-mma\" data-sportid=\"3301\"
+        id=\"menu-mma\" style=\"display: none;\"><a href=\"http://espn.go.com/mma/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_mma\">MMA</a></li>\n<!-- start:
+        Menuitem :: ALL SPORTS -->\n<li class=\"nav-allsports t-allsports\" id=\"menu-allsports\"><a
+        href=\"http://espn.go.com/sports/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_allsports\">MORE
+        SPORTS</a></li>\n<!-- start: Menuitem :: INSIDER -->\n<li class=\"sport-menu
+        t-insider\" id=\"menu-insider\" style=\"display: none;\"><a href=\"http://insider.espn.go.com/insider/index\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_insider\">INSIDER</a></li>\n<!--
+        start: Menuitem :: SPORTSNATION -->\n<li class=\"sport-menu t-sportsnation\"
+        id=\"menu-sportsnation\" style=\"display: none;\"><a href=\"http://espn.go.com/sportsnation/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_sportsnation\">SN</a></li>\n<!--
+        start: Menuitem :: RADIO & MORE -->\n<li class=\"right-menu two-line last
+        t-radio\" id=\"menu-radio\"><a href=\"http://espn.go.com/espnradio/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_radioandmore\">RADIO<span>&amp;
+        MORE</span></a></li>\n<!-- start: Menuitem :: espnW & PLAYBOOK -->\n<li class=\"right-menu
+        two-line t-page2\" id=\"menu-page2\"><a href=\"http://espn.go.com/espnw/\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_espnwandxgames\" target=\"_blank\">espnW<span>&amp;
+        X GAMES</span></a></li>\n<!-- start: Menuitem :: FANTASY & GAMES -->\n<li
+        class=\"right-menu two-line t-fantasy\" id=\"menu-fantasy\"><a href=\"http://games.espn.go.com/frontpage\"
+        name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_fantasy\">FANTASY<span>&amp;
+        GAMES</span></a></li>\n<!-- start: Menuitem :: WATCH -->\n<li class=\"right-menu
+        t-watch\" id=\"menu-watch\"><a href=\"http://espn.go.com/video/\" name=\"&amp;lpos=sitenavdefault&amp;lid=sitenav_watch\">WATCH</a></li>\n</ul>\n<!--
+        end site nav -->\n<!-- end site nav -->\n</ul>\n<!-- end site nav -->\n</div>\n<div
+        class=\"nav-main-secondary\">\n<!--/nhl/player/stats--><ul>\n<li><a href=\"http://espn.go.com/nhl/\"
+        name=\"&lpos=subnav&lid=subnav_NHL_NHL+Home\">NHL Home</a></li><li><a href=\"http://sports.espn.go.com/nhl/playoffs\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Playoffs\">Playoffs</a></li><li><a href=\"http://espn.go.com/nhl/freeagents\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Signings\">Signings</a></li><li><a href=\"http://espn.go.com/nhl/story/_/page/13deadlinetradetracker/2013-nhl-trade-tracker\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Trade\">Trades</a></li><!--<li><a href=\"http://scores.espn.go.com/nhl/scoreboard\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Scores\">Scores</a></li>--><li><a href=\"http://espn.go.com/nhl/schedule\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Schedule\">Schedule</a></li><li><a href=\"http://espn.go.com/nhl/standings/_/group/2\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Standings\">Standings</a></li><li><a href=\"http://espn.go.com/nhl/statistics\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Statistics\">Stats</a></li><li><a href=\"http://insider.espn.go.com/nhl/features/rumors\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Rumor+Central\">Rumors</a></li><li><a href=\"http://espn.go.com/nhl/players\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Players\">Players</a></li><li><a href=\"http://espn.go.com/nhl/powerranking\"
+        name=\"&lpos=subnav&lid=subnav_NHL+Power+Rankings\">Rankings</a></li><li class=\"expandable\"><a
+        href=\"http://espn.go.com/nhl/teams\" name=\"&lpos=subnav&lid=subnav_NHL_Teams\"><span>Teams</span></a><div><dl><dt
+        class=\"first\">Metropolitan</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/car/carolina-hurricanes\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_car\">Carolina Hurricanes</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/cbj/columbus-blue-jackets\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_cls\">Columbus
+        B. Jackets</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/nj/new-jersey-devils\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_njd\">New Jersey Devils</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/nyi/new-york-islanders\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_nyi\">New
+        York Islanders</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/nyr/new-york-rangers\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_nyr\">New York Rangers</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/phi/philadelphia-flyers\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_phi\">Philadelphia
+        Flyers</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/pit/pittsburgh-penguins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_pit\">Pittsburgh Penguins</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/wsh/washington-capitals\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_was\">Washington
+        Capitals</a></dd><dt class=\"first\">Atlantic</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/bos/boston-bruins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_bos\">Boston Bruins</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/buf/buffalo-sabres\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_buf\">Buffalo
+        Sabres</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/det/detroit-red-wings\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_det\">Detroit Red Wings</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/fla/florida-panthers\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_fla\">Florida
+        Panthers</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/mtl/montreal-canadiens\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_mon\">Montreal Canadiens</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/ott/ottawa-senators\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_ott\">Ottawa
+        Senators</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/tb/tampa-bay-lightning\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_tam\">Tampa Bay Lightning</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/tor/toronto-maple-leafs\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_tor\">Toronto
+        Maple Leafs</a></dd></dl><dl class=\"last\"><dt class=\"first\">Central</dt><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/chi/chicago-blackhawks\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_chi\">Chicago
+        Blackhawks</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/col/colorado-avalanche\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_col\">Colorado Avalanche</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/dal/dallas-stars\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_dal\">Dallas
+        Stars</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/min/minnesota-wild\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_min\">Minnesota Wild</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/nsh/nashville-predators\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_nsh\">Nashville
+        Predators</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/stl/st-louis-blues\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_stl\">St. Louis Blues</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/wpg/winnipeg-jets \"name=\"&lpos=subnav&lid=subnav_NHL_Teams_win\">Winnipeg
+        Jets</a></dd><dt class=\"first\">Pacific</dt><dd><a href=\"http://espn.go.com/nhl/team/_/name/ana/anaheim-ducks\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_ana\">Anaheim Ducks</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/cgy/calgary-flames\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_cgy\">Calgary
+        Flames</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/edm/edmonton-oilers\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_edm\">Edmonton Oilers</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/la/los-angeles-kings\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_los\">Los
+        Angeles Kings</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/phx/phoenix-coyotes\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_pho\">Phoenix Coyotes</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/team/_/name/sj/san-jose-sharks\" name=\"&lpos=subnav&lid=subnav_NHL_Teams_san\">San
+        Jose Sharks</a></dd><dd><a href=\"http://espn.go.com/nhl/team/_/name/van/vancouver-canucks\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Teams_van\">Vancouver Canucks</a></dd></dl></div></li><li><a
+        href=\"http://games.espn.go.com/frontpage/hockey\" name=\"&lpos=subnav&lid=subnav_NHL+Fantasy\">Fantasy</a></li><!--<li><a
+        href=\"http://espn.go.com/nhl/lines\" name=\"&lpos=subnav&lid=subnav_NHL+Odds\">Odds</a></li>--><li
+        class=\"expandable\"><a href=\"javascript:void(0);\"><span>Resources</span></a><div><dl><dd><a
+        href=\"http://espn.go.com/nhl/freeagents\" name=\"&lpos=subnav&lid=subnav_NHL+Tracker\">Free
+        Agent Tracker</a></dd><dd><a href=\"http://espn.go.com/nhl/story/_/page/13deadlinetradetracker/2013-nhl-trade-tracker\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Trade\">Trade Tracker</a></dd><dd><a href=\"http://sports.espn.go.com/nhl/playoffs/2011/news/story?page=cupchamps11\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Stanley_Cup_Winners\">Stanley Cup winners</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/attendance\" name=\"&lpos=subnav&lid=subnav_NHL_Attendance\">Attendance</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/glance\" name=\"&lpos=subnav&lid=subnav_NHL_Glance\">Daily
+        Glance</a></dd><dd><a href=\"http://espn.go.com/nhl/stats/dailyleaders\" name=\"&lpos=subnav&lid=subnav_NHL_Leaders\">Daily
+        Leaders</a></dd><dd><a href=\"http://espn.go.com/nhl/history/leaders\" name=\"&lpos=subnav&lid=subnav_NHL_History\">History</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/injuries\" name=\"&lpos=subnav&lid=subnav_NHL_Injuries\">Injuries</a></dd><dd><a
+        href=\"http://insider.espn.go.com/nhl/pickcenter\" name=\"&lpos=subnav&lid=subnav_NHL_Pick_Center\">Pick
+        Center <img src=\"http://assets.espn.go.com/i/design07/mast/tinyin.gif\" alt=\"Insider\"></a></dd><dd><a
+        href=\"http://espn.go.com/nhl/playoffs/matchups\" name=\"&lpos=subnav&lid=subnav_NHL_Matchups\">Playoffs
+        Matchups</a></dd><dd><a href=\"http://espn.go.com/nhl/stats/rpi\" name=\"&lpos=subnav&lid=subnav_NHL_RPI\">Relative
+        Power Index</a></dd></dl><dl class=\"last\">                <dd><a href=\"http://espn.go.com/nhl/story/_/page/calendar2013/2012-13-nhl-calendar\"
+        name=\"&lpos=subnav&lid=subnav_Dates\">Key Dates</a></dd>                <dd><a
+        href=\"http://espn.go.com/nhl/transactions\" name=\"&lpos=subnav&lid=subnav_Transactions\">Transactions</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/preview2012/\" name=\"&lpos=subnav&lid=subnav_NHL_Preview\">2013
+        Season Preview</a></dd><dd><a href=\"http://espn.go.com/nhl/topics/_/page/nhl-draft\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Draft\">2013 NHL Draft</a></dd><dd><a href=\"http://espn.go.com/nhl/playoffs/2013/matchup/_/teams/blackhawks-bruins\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Playoffs\">2013 NHL Playoffs</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/allstargame\" name=\"&lpos=subnav&lid=subnav_ASG\">2012
+        All-Star Game</a></dd><dd><a href=\"http://espn.go.com/nhl/winterclassic12/\"
+        name=\"&lpos=subnav&lid=subnav_NHL_2012_Winter_Classic\">2012 Winter Classic</a></dd><dd><a
+        href=\"http://espn.go.com/nhl/playoffs/2012/matchup/_/teams/devils-kings\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Playoffs\">2012 NHL Playoffs</a></dd>                <dd><a
+        href=\"http://espn.go.com/nhl/topics/_/page/hockey-hall-fame\">Hockey Hall
+        of Fame</a></dd><dd><a href=\"http://espn.go.com/nhl/trophytracker\" name=\"&lpos=subnav&lid=subnav_Trophy+Tracker\">Trophy
+        Tracker</a></dd><dd><a href=\"http://espn.go.com/nhl/news/story?page=awardshistory\"
+        name=\"&lpos=subnav&lid=subnav_NHL_Awards\">Awards History</a></dd></dl></div></li><li><a
+        href=\"http://www.stubhub.com/nhl-tickets/\" target=\"_blank\" onclick=\"this.href=this.href+'?gcid=C12289x522&gtkw=NHL+Sub+Nav'\"
+        class=\"external\" name=\"&lpos=subnav&lid=subnav_NHL+Tickets\">Tickets</a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<!--
+        end content -->\n</div>\n<!-- end subheader -->\n\n<script>\nespn.core.init.nav();\nespn.insider.checkUserForPromo();\nespn.insider.insiderRedirect();\n</script>\n<!--
+        begin footer -->\n<div id=\"footer\" class=\"container\">\n<script type=\"text/javascript\">\n//<![CDATA[\nvar
+        link = window.location;\nvar bugText = '<a href=\"#\" onclick=\"window.open(\\'http://dynamic.espn.go.com/espn/bugs?url='
+        + escape(link) + '\\', \\'Bugs\\',\\'noresizable,noscrollbars,height=400,width=400\\');\">Report
+        a Bug</a> | ';\n//]]>\n</script>\n<span style=\"font-weight:bold;\">ESPN.com:</span>
+        <a href=\"http://sports.espn.go.com/espn/news/story?page=help/index\">Help</a>
+        | <a href=\"http://espnmediazone.com/us/\" rel=\"nofollow\">Press</a> | <a
+        href=\"http://www.espncms.com/Advertise-on-ESPN.aspx\" rel=\"nofollow\">Advertise
+        on ESPN.com</a> | <a href=\"http://www.espncms.com\" rel=\"nofollow\">Sales
+        Media Kit</a> | <a href=\"http://preferences.truste.com/2.0/?type=espn&affiliateId=148\"
+        onclick=\"window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0');
+        return false\">Interest-Based Ads</a> | <script type=\"text/javascript\">document.write(bugText);</script><a
+        href=\"http://espn.go.com/espn/corrections\">Corrections</a> | <a href=\"http://sports.espn.go.com/espn/news/story?page=contact/index\">Contact
+        Us</a> | <a href=\"http://espn.go.com/espn/sitemap\">Site Map</a> | <a href=\"http://espncareers.com\">Jobs
+        at ESPN</a> | <!--a href=\"http://corporate.disney.go.com/corporate/sourcing.html\"
+        rel=\"nofollow\"><span style=\"font-weight:bold;\">Supplier Information</span></a--><a
+        href=\"http://go.com\">Go.com</a><br/>&copy; 2013 ESPN Internet Ventures.
+        <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\"><b>Updated Terms
+        of Use</b></a>, <a href=\"http://disney.go.com/corporate/legal/terms.html\"
+        rel=\"nofollow\">Terms of Use</a>, and <a href=\"http://disney.go.com/corporate/privacy/pp_espn.html\"
+        rel=\"nofollow\">Privacy Policy and Safety Information/Your California Privacy
+        Rights</a> are applicable to you.  All rights reserved.\n\n<!--\n<a href=\"http://www.espnshop.com/\"
+        onClick=\"location.href('http://log.go.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return
+        false\">Shop</a>\n-->\n</div>\n<!-- end footer -->\n<!--[if lte IE 8]></div><![endif]-->\n</div>\n<!--
+        end bg-elements -->\n<script type=\"text/javascript\">jQuery(document).ready(function()
+        {var ua = navigator.userAgent;if (ua && ua.indexOf(\"Trident/4.0\") >= 0)
+        { jQuery(\".webicon\").show(); }if (ua && ua.indexOf(\"Trident/4.0\") >= 0)
+        { jQuery(\".webiconmod\").show(); }});</script>\n\n<!-- SiteCatalyst code
+        version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com
+        -->\n<script type=\"text/javascript\">\n\tvar undef = 'undefined'\n\t,s_account=\"wdgespcom\"\n\t,omniPageName
+        = \"espn:nhl:player:stats\"\t\n\t\n\t,insiderStatus = \"\"\n\t,anGen = \"\"\n\t,anYear
+        = \"\"\n\t,anDateString = \"\"\n\t,anLoginStatus = \"\"\n\t,callOmniture =
+        function(){\n\t\t/*-- core story s_omni properties --*/\n\t\tif (typeof anCV
+        != \"undefined\"){anParseLoginBarInfo(anCV);}\n\t\ts_omni.pageName=\"nhl:player:stats\";\n\t\ts_omni.server
+        = window.location.host; // Server from the Host\n\t\ts_omni.channel = \"nhl\";\n\t\ts_omni.prop1
+        = \"espn\";\n\t\ts_omni.prop4 = \"playerprofile\";\n\t\ts_omni.prop5 = \"nhl\";\n\t\ts_omni.prop11
+        = (insiderStatus !== null) ? insiderStatus + \":premium-no\" : \"premium-no\";\n\t\ts_omni.prop13
+        = \"automated-general\";\n\t\ts_omni.prop17 = \"en\";\n\t\ts_omni.prop21 =
+        anDateString;\n\t\ts_omni.prop22 = anGen;\n\t\ts_omni.prop25 = \"hockey\";\n\t\ts_omni.prop26
+        = \"nhl\";\n\t\ts_omni.prop29 = anLoginStatus;\n\t\ts_omni.prop30 = \"n\";\n\t\ts_omni.prop32
+        = \"nhl:playerid=1223-pavel+datsyuk\";\n\t\ts_omni.hier1 = \"nhl:player:stats\";\n\t\ts_omni.eVar7
+        = anYear + \":\" + anGen + \":\" + anLoginStatus + \":\" + s_omni.prop11 +
+        \":\";\n\t\ts_omni.eVar9 = \"en\";\n\t\ts_omni.eVar13 = \"nhl:player:stats\";\n\t\ts_omni.eVar19
+        = \"hockey\";\n\t\ts_omni.eVar21 = \"nhl\";\n\t\t\n\t\tif (s_omni.prop11==\"anonymous:premium-yes\"
+        || s_omni.prop11==\"insider-no:premium-yes\" && typeof s_omni.prop4!=\"undefined\"
+        &&\n\t\t\t(s_omni.prop4==\"story\" || s_omni.prop4==\"blog\")) {\n\t\t\tif
+        (typeof s_omni.events != \"undefined\" && s_omni.events!=\"\") {\n\t\t\t\ts_omni.events
+        = s_omni.events+\",event8\" }\n\t\t\telse { s_omni.events=\"event8\" }\n\t\t}\n\t\tanDebugCase
+        = \"ver_15Feb11_0_\";\n\t\t/************* DO NOT ALTER ANYTHING BELOW THIS
+        LINE ! **************/\n\t\t\n\t\tvar s_code = s_omni.t();\n\t\tif(s_code)
+        {\n\t\t\tvar sci = new Image(1,1);\n\t\t\tsci.onload = function() {console.log(\"loaded
+        no append\")};\n\t\t\tsci.src = s_code;\n\t\t}\n\t\t\n\t};\n\t\n\n\n\tif (typeof(s_omni)
+        === 'undefined') {\n\t\tjQuery(function($) {\n\t\t\t// we want to load the
+        analytics files from the cache if possible - so, let's use full $.ajax() calls\n\t\t\t$.ajax({\n\t\t\t\ttype:'GET',\n\t\t\t\turl:
+        'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js',\n\t\t\t\tdataType:
+        'script',\n\t\t\t\tcache: true,\n\t\t\t\tsuccess: function() {\n\t\t\t\t\tvar
+        lgSrc;\n\t\t\t\t\tif(typeof anCV !== undef && anCV === '' && document.getElementById('form-memberarea')
+        != null) {\n\t\t\t\t\t\tlgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently';\n\t\t\t\t\t\t$.getScript(lgSrc);
+        // we don't want this to be cached - so we'll use the $.getScript() method\n\t\t\t\t\t}
+        else {\n\t\t\t\t\t\tcallOmniture();\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t}\n\n\n</script>\n<!--
+        End SiteCatalyst code version: H.21. -->\n\t\t<script>\n\t\tvar _sf_async_config={\n\t\t\t\"uid\":22222,\n\t\t\t\"domain\":\"espn.go.com\",\n\t\t\t\"pingServer\":\"pespn.chartbeat.net\",\n\t\t\t\"useCanonical\":true,\n\t\t\t\"sections\":\"nhl\",\n\t\t\t\"authors\":\"playerprofile\"\n\t\t};\n\t\tif
+        (typeof(ad_site) !== 'undefined') { _sf_async_config.zone = ad_site; }\n\t\t(function(){function
+        a(){window._sf_endpt=(new Date()).getTime();var c=document.createElement(\"script\");c.setAttribute(\"language\",\"javascript\");c.setAttribute(\"type\",\"text/javascript\");c.setAttribute(\"src\",((\"https:\"==document.location.protocol)?\"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\":\"http://static.chartbeat.com/\")+\"js/chartbeat_pub.js\");document.body.appendChild(c)}var
+        b=window.onload;window.onload=(typeof window.onload!=\"function\")?a:function(){b();a()}})();\n\t\t</script>\n\t\t<script>\njQuery.getScriptCache('http://assets.espn.go.com/prod/scripts/foresee/v7/foresee-trigger.js');\n</script>\n<!--
+        dynamic logic: safecount -->\n<script src=\"http://content.dl-rms.com/rms/mother/508/nodetag.js\"></script>\n\n<script
+        type=\"text/javascript\" charset=\"utf-8\">buildOutHeadlinesForPinnedSite();</script>\n<script
+        type=\"text/javascript\">\n   var isInIFrame = (window.location != window.parent.location)
+        ? true : false;\n   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(\".go.com\")==-1){
+        top.location.href=self.location.href; } } }\n</script>\n\n<script type='text/javascript'>\n
+        \ //<![CDATA[\n    (function(){\n    window.gravityInsightsParams = {\n      'type':
+        'content',\n      'action': '',\n      'site_guid': '9a41401e9b7c945344e001ee7f23031e'\n
+        \   };\n    var b,c;b=\"https:\"===document.location.protocol?\"https://b-ssl.grvcdn.com/moth-min.js\":\"http://b.grvcdn.com/moth-min.js\";window.grvMakeScript=function(d){var
+        a;a=document.createElement(\"script\");a.type=\"text/javascript\";a.async=!0;a.src=d;return
+        a};c=document.getElementsByTagName(\"script\")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();\n
+        \ //]]>\n</script></body>\n</html>"
+    http_version: 
+  recorded_at: Tue, 13 Aug 2013 16:20:54 GMT
+recorded_with: VCR 2.5.0
