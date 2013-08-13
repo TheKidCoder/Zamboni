@@ -33,7 +33,6 @@ module Zamboni
     end
 
 
-
     private
     ###Stats Parsing
     def parse_stats
