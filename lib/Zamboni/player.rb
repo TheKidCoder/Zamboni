@@ -1,19 +1,13 @@
-require 'open-uri'
-
 module Zamboni
   class Player
     CSS_PATHS = YAML.load_file(File.dirname(__FILE__) + "/scrape_paths/player.yml")
+
     attr_accessor :id
 
     def initialize(options = {})
       @id = options[:id] unless options[:id].nil?
-    end
-
-    def info_url
-      Zamboni::BASE_URL + "/player/_/id/#{@id}"
-    end
-    def stats_url
-      Zamboni::BASE_URL + "/player/stats/_/id/#{@id}"
+      pages
+      return self
     end
 
     def pages
@@ -41,6 +35,15 @@ module Zamboni
 
 
     private
+    ###URLS
+    def info_url
+      Zamboni::BASE_URL + "/player/_/id/#{@id}"
+    end
+
+    def stats_url
+      Zamboni::BASE_URL + "/player/stats/_/id/#{@id}"
+    end
+
     ###Stats Parsing
     def parse_stats
       stats = []
