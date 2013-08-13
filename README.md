@@ -23,10 +23,12 @@ Or install it yourself as:
 ## Usage
 
 Because our project is based on a single player, we simple sub-classed Zamboni::Player
+
     class Pavel < Zamboni::Player
     end
 
 set the id from ESPN
+
     class Pavel < Zamboni::Player
       def initialize
         @id = 1223
@@ -34,6 +36,7 @@ set the id from ESPN
     end
 
 and then call instance methods like .season_stats or info.
+
     pavel = new Pavel
     pavel.info['name'] #Pavel Datsyuk
     pavel.info['age'] #34
