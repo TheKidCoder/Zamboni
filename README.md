@@ -23,13 +23,15 @@ Or install it yourself as:
 
 ## Usage
 
-Because our project is based on a single player, we simple sub-classed Zamboni::Player
+Because our project is based on a single player, we simply sub-classed Zamboni::Player
 
     class Pavel < Zamboni::Player
     end
 
 set the id from ESPN
 
+    #http://espn.go.com/nhl/player/_/id/1223/pavel-datsyuk
+    #------find player id here----------^^^^--------------
     class Pavel < Zamboni::Player
       def initialize
         @id = 1223
