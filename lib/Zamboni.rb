@@ -1,6 +1,7 @@
 require "Zamboni/version"
 require 'nokogiri'
 require 'open-uri'
+require 'YAML'
 
 Dir[File.dirname(__FILE__) + '/Zamboni/*.rb'].each { |f| require f }
 

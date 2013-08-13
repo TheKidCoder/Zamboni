@@ -13,16 +13,8 @@ describe Zamboni::Player do
 
   describe 'GET player' do
     let(:player) { Zamboni::Player.new(id: '1223') }
-    before do
-      VCR.insert_cassette 'player', record: :new_episodes
-    end
-
-    after do
-      VCR.eject_cassette
-    end
-
     it "must have a info method" do
-      player.should respond_to(:stats)
+      player.should respond_to(:info)
     end
 
     it "should have Pasha the player info" do

@@ -27,15 +27,15 @@ http_interactions:
       Transfer-Encoding:
       - chunked
       Date:
-      - Tue, 13 Aug 2013 16:20:54 GMT
+      - Tue, 13 Aug 2013 20:25:00 GMT
       Connection:
       - keep-alive
       P3p:
       - CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo
         BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
       Set-Cookie:
-      - SWID=B9EABD00-6A7F-40EA-B93F-881ECD14A81F; path=/; expires=Tue, 13-Aug-2033
-        16:20:54 GMT; domain=go.com;
+      - SWID=44533EB5-09FB-4B3C-AC72-4D26297E9242; path=/; expires=Tue, 13-Aug-2033
+        20:25:00 GMT; domain=go.com;
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<meta
@@ -636,7 +636,7 @@ http_interactions:
         53 days ago | Craig Custance  | ESPN.com</cite>\n</li>\n<li id=\"9399071\"
         class=\"result\">\n<h3><a href=\"http://espn.go.com/nhl/story/_/id/9399071/pavel-datsyuk-detroit-red-wings-agree-3-year-extension\">Red
         Wings reach 3-year deal with Datsyuk</a></h3>\n<p>Pavel Datsyuk and the Detroit
-        Red Wings have an agreement on a three-year contract.</p>\n<cite>about 55
+        Red Wings have an agreement on a three-year contract.</p>\n<cite>about 56
         days ago | ESPN.com news services</cite>\n</li>\n<li id=\"9330856\" class=\"result\">\n<h3><a
         href=\"http://espn.go.com/nhl/story/_/id/9330856/pavel-datsyuk-detroit-red-wings-hopes-sign-new-deal\">Datsyuk
         hopes to sign new deal with Wings</a></h3>\n<p>Pavel Datsyuk says he hopes
@@ -891,7 +891,7 @@ http_interactions:
         a};c=document.getElementsByTagName(\"script\")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();\n
         \ //]]>\n</script></body>\n</html>"
     http_version: 
-  recorded_at: Tue, 13 Aug 2013 16:20:53 GMT
+  recorded_at: Tue, 13 Aug 2013 20:24:58 GMT
 - request:
     method: get
     uri: http://espn.go.com/nhl/player/stats/_/id/1223
@@ -919,15 +919,15 @@ http_interactions:
       Transfer-Encoding:
       - chunked
       Date:
-      - Tue, 13 Aug 2013 16:20:55 GMT
+      - Tue, 13 Aug 2013 20:25:00 GMT
       Connection:
       - keep-alive
       P3p:
       - CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo
         BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
       Set-Cookie:
-      - SWID=F8180DB3-FC75-404B-905D-8976D61C6F2A; path=/; expires=Tue, 13-Aug-2033
-        16:20:55 GMT; domain=go.com;
+      - SWID=87B7E61B-E694-43FC-AE9D-0E835D6872CF; path=/; expires=Tue, 13-Aug-2033
+        20:25:00 GMT; domain=go.com;
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<meta
@@ -1618,5 +1618,5 @@ http_interactions:
         a};c=document.getElementsByTagName(\"script\")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();\n
         \ //]]>\n</script></body>\n</html>"
     http_version: 
-  recorded_at: Tue, 13 Aug 2013 16:20:54 GMT
+  recorded_at: Tue, 13 Aug 2013 20:24:58 GMT
 recorded_with: VCR 2.5.0
