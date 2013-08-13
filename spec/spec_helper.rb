@@ -1,7 +1,9 @@
 require 'webmock/rspec'
 require 'vcr'
+require 'rspec/autorun'
 
-require_relative '../lib/dish'
+require_relative '../lib/Zamboni'
+
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
@@ -15,8 +17,7 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
-#VCR config
-VCR.config do |c|
-  c.cassette_library_dir = 'spec/fixtures/dish_cassettes'
-  c.stub_with :webmock
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  c.hook_into :webmock # or :fakeweb
 end

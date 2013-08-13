@@ -1,0 +1,8 @@
+player_info:
+  name: '.mod-content h1:first-of-type'
+  team: '.player-bio .general-info li.last'
+  height_weight: '.player-bio .general-info li:nth-of-type(2)'
+  born: '.player-bio .player-metadata li:nth-of-type(1)'
+  age: '.player-bio .player-metadata li:nth-of-type(2)'
+  drafted: '.player-bio .player-metadata li:nth-of-type(3)'
+  experience: '.player-bio .player-metadata li:nth-of-type(4)'
