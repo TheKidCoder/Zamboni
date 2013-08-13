@@ -4,6 +4,7 @@ While working on an NHL god's website, we needed easy access to player stats and
 Thus, Zamboni was born. A simple screen scraping gem for NHL player & team info.
 
 Btw, that god was this guy:
+
 ![Pascha](http://i.imgur.com/6LvfP99.gif)
 
 ## Installation
