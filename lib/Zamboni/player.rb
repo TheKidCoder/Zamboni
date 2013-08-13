@@ -32,7 +32,7 @@ module Zamboni
     end
 
     def stats_schema
-      @stats_schema ||= parse_stats[:stats_schema]
+      @stats_schema ||= parse_stats[:schema]
     end
 
     def info
