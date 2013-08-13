@@ -23,10 +23,17 @@ module Zamboni
       }
     end
 
-    def stats
-      @stats ||= parse_stats
+    def season_stats
+      @season_stats ||= parse_stats[:seasons]
     end
 
+    def career_stats
+      @career_stats ||= parse_stats[:career]
+    end
+
+    def stats_schema
+      @stats_schema ||= parse_stats[:stats_schema]
+    end
 
     def info
       @info ||= parse_info
@@ -55,7 +62,11 @@ module Zamboni
         end
       end
 
-      return seasons
+      #Remove career row from seasons
+      career = seasons['Career']
+      seasons = seasons.tap {|s| s.delete('Career')}
+
+      return {seasons: seasons, schema: stats, career: career}
     end
 
     ###Info Parsing
