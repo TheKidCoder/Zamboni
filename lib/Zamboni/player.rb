@@ -75,7 +75,7 @@ module Zamboni
     ###Info Parsing
     def parse_info
       info = {}
-      CSS_PATHS[:player_info:].each do |n, path|
+      CSS_PATHS[:player_info].each do |n, path|
         node = pages[:info].css(path)
         info[n] = parse_text_from_node(node)
       end
