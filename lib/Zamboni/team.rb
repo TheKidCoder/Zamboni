@@ -2,7 +2,7 @@ module Zamboni
   class Team
     CSS_PATHS = YAML.load_file(File.dirname(__FILE__) + "/scrape_paths/team.yml")
 
-    attr_accessor :name
+    attr_accessor :name, :season
 
     def initialize(options = {})
       @name = options[:name] || "DET"
@@ -19,7 +19,7 @@ module Zamboni
     end
 
     def schedule
-      @schedules ||= parse_schedule
+      @schedule ||= parse_schedule
     end
 
     private
@@ -33,6 +33,7 @@ module Zamboni
 
       schedule_rows.children.each do |row|
         schedule[row.css(CSS_PATHS[:team_schedule][:date]).text] = {
+          date:           Time.parse(row.css(CSS_PATHS[:team_schedule][:date]).text),
           away_team:      (row.css('.team')[0].text rescue ""),
           home_team:      (row.css('.team')[1].text rescue ""),
           time_est:       row.css('td.time .skedStartTimeEST').text,
