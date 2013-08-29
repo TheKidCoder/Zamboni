@@ -32,8 +32,10 @@ module Zamboni
       schedule_rows = pages[:schedule].css(CSS_PATHS[:team_schedule][:table])
 
       schedule_rows.children.each do |row|
-        schedule[row.css(CSS_PATHS[:team_schedule][:date]).text] = {
-          date:           Time.parse(row.css(CSS_PATHS[:team_schedule][:date]).text),
+        date_str = row.css(CSS_PATHS[:team_schedule][:date]).text
+        next if date_str == ""
+        schedule[date_str] = {
+          date:           (Time.parse(date_str) rescue ""),
           away_team:      (row.css('.team')[0].text rescue ""),
           home_team:      (row.css('.team')[1].text rescue ""),
           time_est:       row.css('td.time .skedStartTimeEST').text,
