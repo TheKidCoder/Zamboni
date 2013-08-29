@@ -5,7 +5,9 @@ module Zamboni
     attr_accessor :name
 
     def initialize(options = {})
-      @name = options[:name] unless options[:name].nil?
+      @name = options[:name] || "DET"
+      @season = options[:season] || "20132014"
+      @gameType = options[:playoffs] ? 3 : 2
       pages #Preload the pages on init.
       return self
     end
@@ -22,26 +24,23 @@ module Zamboni
 
     private
     def schedule_url
-      Zamboni::BASE_URL + "/team/schedule/_/name/#{@name}"
-      # Zamboni::BASE_URL + "/teams/printSchedule?team=#{@name}&season=2014"
+      "http://www.nhl.com/ice/schedulebyseason.htm?season=#{@season}&gameType=#{@gameType}&team=#{@name}"
     end
 
     def parse_schedule
-      schedules = {}
-      schedule_rows = pages[:schedule].css(CSS_PATHS['team_schedule']['table'])
+      schedule = {}
+      schedule_rows = pages[:schedule].css(CSS_PATHS[:team_schedule][:table])
 
-      last_schedule = ""
-      current_schedule = ""
       schedule_rows.children.each do |row|
-        next if row['class'] == 'stathead' or row['class'] == 'colhead'
-        schedules[row.children[0].text] = {
-          opponent: {name: row.children[1].css('.team-name a').text, url: row.children[1].css('.team-name a').first['href']},
-          time: row.children[2].text,
-          location: row.children[6].text
+        schedule[row.css(CSS_PATHS[:team_schedule][:date]).text] = {
+          away_team:      (row.css('.team')[0].text rescue ""),
+          home_team:      (row.css('.team')[1].text rescue ""),
+          time_est:       row.css('td.time .skedStartTimeEST').text,
+          network_result: row.css('.tvInfo').text.strip
         }
       end
-
-      return schedules
+      schedule
     end
+
   end
 end

@@ -48,8 +48,8 @@ module Zamboni
     def parse_stats
       stats = []
       seasons = {}
-      stats_header = pages[:stats].css(CSS_PATHS['player_stats']['stats_header'])
-      season_rows = pages[:stats].css(CSS_PATHS['player_stats']['stats_table'])
+      stats_header = pages[:stats].css(CSS_PATHS[:player_stats][:stats_header])
+      season_rows = pages[:stats].css(CSS_PATHS[:player_stats][:stats_table])
       #Grab Stat Headers
       stats_header.children.each do |header_node|
         stats << parse_text_from_node(header_node)
@@ -75,7 +75,7 @@ module Zamboni
     ###Info Parsing
     def parse_info
       info = {}
-      CSS_PATHS['player_info'].each do |n, path|
+      CSS_PATHS[:player_info:].each do |n, path|
         node = pages[:info].css(path)
         info[n] = parse_text_from_node(node)
       end
