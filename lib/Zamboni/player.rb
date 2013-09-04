@@ -25,7 +25,7 @@ module Zamboni
     end
 
     def playoff_stats
-      @playoff_stats ||= parse_stats(season_type: :post)[:seasons]
+      @playoff_stats ||= parse_stats(playoffs: true)[:seasons]
     end
 
     def career_stats
@@ -33,7 +33,7 @@ module Zamboni
     end
 
     def playoff_career_stats
-      @career_stats ||= parse_stats(season_type: :post)[:career]
+      @career_stats ||= parse_stats(playoffs: true)[:career]
     end
 
     def stats_schema
@@ -60,10 +60,10 @@ module Zamboni
     end
 
     ###Stats Parsing
-    def parse_stats(season_type: :regular)
+    def parse_stats(options = {})
       stats = []
       seasons = {}
-      page = season_type == :regular ? pages[:stats] : pages[:playoff_stats]
+      page = options[:playoffs] ? pages[:playoff_stats] : pages[:stats]
       stats_header = page.css(CSS_PATHS[:player_stats][:stats_header])
       season_rows = page.css(CSS_PATHS[:player_stats][:stats_table])
       #Grab Stat Headers
