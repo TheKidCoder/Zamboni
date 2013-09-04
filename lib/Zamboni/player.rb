@@ -1,6 +1,7 @@
 module Zamboni
   class Player
     CSS_PATHS = YAML.load_file(File.dirname(__FILE__) + "/scrape_paths/player.yml")
+    SEASON_TYPE_MASK = {regular: 2, post: 3}
 
     attr_accessor :id
 
@@ -11,9 +12,11 @@ module Zamboni
     end
 
     def pages
+      puts playoff_stats_url
       @pages ||= {
         info: Nokogiri::HTML(open(info_url)),
-        stats: Nokogiri::HTML(open(stats_url))
+        stats: Nokogiri::HTML(open(stats_url)),
+        playoff_stats: Nokogiri::HTML(open(playoff_stats_url))
       }
     end
 
@@ -21,8 +24,16 @@ module Zamboni
       @season_stats ||= parse_stats[:seasons]
     end
 
+    def playoff_stats
+      @playoff_stats ||= parse_stats(season_type: :post)[:seasons]
+    end
+
     def career_stats
       @career_stats ||= parse_stats[:career]
+    end
+
+    def playoff_career_stats
+      @career_stats ||= parse_stats(season_type: :post)[:career]
     end
 
     def stats_schema
@@ -44,12 +55,17 @@ module Zamboni
       Zamboni::BASE_URL + "/player/stats/_/id/#{@id}"
     end
 
+    def playoff_stats_url
+      stats_url + "/seasontype/3"
+    end
+
     ###Stats Parsing
-    def parse_stats
+    def parse_stats(season_type: :regular)
       stats = []
       seasons = {}
-      stats_header = pages[:stats].css(CSS_PATHS[:player_stats][:stats_header])
-      season_rows = pages[:stats].css(CSS_PATHS[:player_stats][:stats_table])
+      page = season_type == :regular ? pages[:stats] : pages[:playoff_stats]
+      stats_header = page.css(CSS_PATHS[:player_stats][:stats_header])
+      season_rows = page.css(CSS_PATHS[:player_stats][:stats_table])
       #Grab Stat Headers
       stats_header.children.each do |header_node|
         stats << parse_text_from_node(header_node)
